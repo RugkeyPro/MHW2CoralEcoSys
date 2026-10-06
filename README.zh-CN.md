@@ -2,6 +2,8 @@
 
 这是基于课题实际主线数据子集制作的完整可运行演示，包括研究总览、未来风险、热浪与暴露、保护配置、数据与溯源、方法与复现六个页面。界面可切换中文和英文，支持区域、SSP情景、气候模型成员及历史类群选择。
 
+[在线演示](https://rugkeypro.github.io/MHW2CoralEcoSys/) · [目标仓库PR #1](https://github.com/NKUHuLab/MHW2CoralEcoSys/pull/1) · [独立演示ZIP](https://github.com/RugkeyPro/MHW2CoralEcoSys/releases/download/v1.0.0-demo/MHW2CoralEcoSys-demo.zip)。在线预览部署在提交贡献的fork仓库，目标main仍需维护者合并PR。
+
 ## 直接启动
 
 ```powershell

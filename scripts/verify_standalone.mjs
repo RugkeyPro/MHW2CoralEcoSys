@@ -1,7 +1,7 @@
 import { chromium } from '@playwright/test';
 import { readFile, writeFile } from 'node:fs/promises';
 import { createHash } from 'node:crypto';
-const url='http://127.0.0.1:8086/';
+const url=process.argv[2] ?? 'http://127.0.0.1:8086/';
 const manifest=JSON.parse(await readFile('data/provenance.json','utf8'));
 for(const source of manifest.files){
   const response=await fetch(`${url}data/source/${source.file.split('/').at(-1)}`);
@@ -19,6 +19,7 @@ if(await page.getByTestId('metric-pressure').textContent()!=='+47.9%')throw new 
 await page.waitForFunction(()=>document.querySelectorAll('.reef-map circle').length>2000);
 if(externalRequests.length)throw new Error(`External runtime requests: ${externalRequests.join(',')}`);
 await browser.close();
-const report={standaloneBrowser:'passed',httpSourceHashMatches:manifest.files.length,externalRuntimeRequests:0,overviewPressure:'+47.9%'};
-await writeFile('outputs/standalone_validation.json',JSON.stringify(report,null,2)+'\n');
+const report={standaloneBrowser:'passed',servedUrl:url,httpSourceHashMatches:manifest.files.length,externalRuntimeRequests:0,overviewPressure:'+47.9%'};
+const reportName=url.startsWith('http://127.0.0.1')?'standalone_validation.json':'hosted_validation.json';
+await writeFile(`outputs/${reportName}`,JSON.stringify(report,null,2)+'\n');
 console.log(JSON.stringify(report));

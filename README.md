@@ -2,6 +2,8 @@
 
 A runnable, real-data demonstration of marine heatwaves, four-taxon coral-reef community suitability, modelled microplastic exposure and conservation prioritization. The interface supports Chinese and English. [中文说明](README.zh-CN.md).
 
+**[Open the live demo](https://rugkeypro.github.io/MHW2CoralEcoSys/)** · [Submitted change in the target repository](https://github.com/NKUHuLab/MHW2CoralEcoSys/pull/1) · [Standalone demo ZIP](https://github.com/RugkeyPro/MHW2CoralEcoSys/releases/download/v1.0.0-demo/MHW2CoralEcoSys-demo.zip). The live preview is hosted on the contribution fork while the target pull request awaits merge.
+
 ![Research dashboard](docs/screenshots/overview-desktop.png)
 
 ## Run the demo immediately
