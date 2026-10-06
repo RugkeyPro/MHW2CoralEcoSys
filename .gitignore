@@ -1,6 +1,7 @@
 node_modules/
 dist/
 outputs/
+deliverables/
 test-results/
 playwright-report/
 __pycache__/

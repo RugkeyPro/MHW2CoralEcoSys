@@ -13,6 +13,7 @@
   "standalone_browser": "passed",
   "standalone_http_source_hashes_matched": 9,
   "external_runtime_requests": 0,
+  "github_ci": {"status": "passed", "validated_commit": "39e94f5731887a17ced902edf4604bf961b18cc4", "url": "https://github.com/RugkeyPro/MHW2CoralEcoSys/actions/runs/37489481924"},
   "docker_runtime": "not tested",
   "full_ocean_model_and_maxent_training": "not run"
 }
