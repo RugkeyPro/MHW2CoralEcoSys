@@ -1,0 +1,3 @@
+# Optional only for rebuilding map samples from the bundled GeoTIFF files.
+numpy>=1.26,<3
+rasterio>=1.3,<2

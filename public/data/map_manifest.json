@@ -1,0 +1,48 @@
+{
+  "display_resolution_degrees": 1,
+  "aggregation": "Unweighted arithmetic mean of valid source cell values within each 1-degree display bin. Not used for regional headline statistics.",
+  "scenarios": {
+    "ssp126_2050": {
+      "source_file": "ssp126_2050_ensemble_mean_quality_reduction_pct_20260902.tif",
+      "original_shape": [
+        1934,
+        4338
+      ],
+      "source_valid_cells": 76635,
+      "display_bins": 2479,
+      "source_range_pct": [
+        -45.0510139465332,
+        84.28176879882812
+      ],
+      "displayed_source_cells": 76635
+    },
+    "ssp245_2050": {
+      "source_file": "ssp245_2050_ensemble_mean_quality_reduction_pct_20260902.tif",
+      "original_shape": [
+        1934,
+        4338
+      ],
+      "source_valid_cells": 76635,
+      "display_bins": 2479,
+      "source_range_pct": [
+        -45.469879150390625,
+        83.74185180664062
+      ],
+      "displayed_source_cells": 76635
+    },
+    "ssp585_2050": {
+      "source_file": "ssp585_2050_ensemble_mean_quality_reduction_pct_20260902.tif",
+      "original_shape": [
+        1934,
+        4338
+      ],
+      "source_valid_cells": 76635,
+      "display_bins": 2479,
+      "source_range_pct": [
+        -38.21900939941406,
+        84.11177062988281
+      ],
+      "displayed_source_cells": 76635
+    }
+  }
+}

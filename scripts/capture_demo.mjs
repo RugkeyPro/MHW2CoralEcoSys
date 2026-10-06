@@ -1,0 +1,18 @@
+import { chromium } from '@playwright/test';
+import { mkdir } from 'node:fs/promises';
+await mkdir('docs/screenshots', { recursive: true });
+const browser = await chromium.launch({ channel: process.env.CI ? undefined : 'msedge', headless: true });
+const page = await browser.newPage({ viewport: { width: 1512, height: 1100 }, deviceScaleFactor: 1, reducedMotion: 'reduce' });
+await page.goto('http://127.0.0.1:4173');
+await page.getByTestId('metric-quality').waitFor();
+await page.waitForFunction(()=>document.querySelectorAll('.reef-map circle').length>2000);
+await page.screenshot({ path: 'docs/screenshots/overview-desktop.png', fullPage: true });
+await page.getByRole('button', { name: '保护配置', exact: true }).click();
+await page.screenshot({ path: 'docs/screenshots/conservation-desktop.png', fullPage: true });
+await page.getByRole('button', { name: '研究总览', exact: true }).click();
+await page.getByRole('button', { name: 'Switch language', exact: true }).click();
+await page.screenshot({ path: 'docs/screenshots/overview-english.png', fullPage: true });
+await page.setViewportSize({ width: 390, height: 844 });
+await page.screenshot({ path: 'docs/screenshots/overview-mobile.png', fullPage: true });
+await browser.close();
+console.log('Captured desktop, conservation, English and mobile views.');

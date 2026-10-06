@@ -1,0 +1,8 @@
+node_modules
+.git
+outputs
+test-results
+playwright-report
+demo
+docs/screenshots
+__pycache__

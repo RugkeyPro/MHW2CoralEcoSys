@@ -1,0 +1,174 @@
+{
+  "schema_version": 1,
+  "curated_date": "2026-10-06",
+  "selection": "Complete small accepted result tables; three accepted Figure 4 GeoTIFFs.",
+  "historical_lineage": "S4: static 54-tracer MPEI 1993–2019, HSI/MHW 1993–2022.",
+  "future_lineage": "Figure 4: period-matched 36-tracer s1–s4 MPEI; conservation repaired 2026-09-06.",
+  "files": [
+    {
+      "file": "data/source/figure4_period_matched_mpei_change_ensemble_20260902.csv",
+      "project_relative_source": "output/01_mainline/figure4_future_period_matched_mpei_20260902/source/figure4_period_matched_mpei_change_ensemble_20260902.csv",
+      "sha256": "4477208c56595e1577d355e1b3a81022e8d9fecb4b01a173d0dd65161acb9502",
+      "bytes": 6946,
+      "kind": "derived_project_result",
+      "unchanged_copy": true,
+      "rows": 12,
+      "columns": [
+        "scenario",
+        "region",
+        "dynamic_mpei_burden_change_pct_mean",
+        "dynamic_mpei_burden_change_pct_min",
+        "dynamic_mpei_burden_change_pct_max",
+        "dynamic_mpei_pressure_change_pct_mean",
+        "dynamic_mpei_pressure_change_pct_min",
+        "dynamic_mpei_pressure_change_pct_max",
+        "historical_mpei_burden_kg_m3_km2_mean",
+        "historical_mpei_burden_kg_m3_km2_min",
+        "historical_mpei_burden_kg_m3_km2_max",
+        "future_mpei_burden_kg_m3_km2_mean",
+        "future_mpei_burden_kg_m3_km2_min",
+        "future_mpei_burden_kg_m3_km2_max",
+        "historical_mpei_pressure_kg_m3_mean",
+        "historical_mpei_pressure_kg_m3_min",
+        "historical_mpei_pressure_kg_m3_max",
+        "future_mpei_pressure_kg_m3_mean",
+        "future_mpei_pressure_kg_m3_min",
+        "future_mpei_pressure_kg_m3_max",
+        "future_habitat_area_km2_mean",
+        "future_habitat_area_km2_min",
+        "future_habitat_area_km2_max",
+        "future_hsi_weighted_area_km2_mean",
+        "future_hsi_weighted_area_km2_min",
+        "future_hsi_weighted_area_km2_max"
+      ]
+    },
+    {
+      "file": "data/source/figure4_period_matched_mpei_change_by_member_20260902.csv",
+      "project_relative_source": "output/01_mainline/figure4_future_period_matched_mpei_20260902/source/figure4_period_matched_mpei_change_by_member_20260902.csv",
+      "sha256": "e58fde7559ef0f8fbfc8e9ca8c8f0af44ec9950117e08fc4f15fe73cc57ef6ce",
+      "bytes": 7766,
+      "kind": "derived_project_result",
+      "unchanged_copy": true,
+      "rows": 36,
+      "columns": [
+        "member",
+        "scenario",
+        "region",
+        "historical_mpei_burden_kg_m3_km2",
+        "future_mpei_burden_kg_m3_km2",
+        "historical_mpei_pressure_kg_m3",
+        "future_mpei_pressure_kg_m3",
+        "dynamic_mpei_burden_change_pct",
+        "dynamic_mpei_pressure_change_pct",
+        "future_habitat_area_km2",
+        "future_hsi_weighted_area_km2"
+      ]
+    },
+    {
+      "file": "data/source/figure4_quality_reduction_ensemble_20260902.csv",
+      "project_relative_source": "output/01_mainline/figure4_future_period_matched_mpei_20260902/source/figure4_quality_reduction_ensemble_20260902.csv",
+      "sha256": "d7c92b8479e2f2410398bf6acff0b1ad03736b2909bbfb6f4d7078ee14a7160e",
+      "bytes": 3365,
+      "kind": "derived_project_result",
+      "unchanged_copy": true,
+      "rows": 12,
+      "columns": [
+        "scenario",
+        "region",
+        "historical_continuous_quality_km2_hsi_mean",
+        "historical_continuous_quality_km2_hsi_min",
+        "historical_continuous_quality_km2_hsi_max",
+        "future_continuous_quality_km2_hsi_mean",
+        "future_continuous_quality_km2_hsi_min",
+        "future_continuous_quality_km2_hsi_max",
+        "continuous_quality_reduction_pct_mean",
+        "continuous_quality_reduction_pct_min",
+        "continuous_quality_reduction_pct_max",
+        "continuous_quality_retention_pct_mean",
+        "continuous_quality_retention_pct_min",
+        "continuous_quality_retention_pct_max"
+      ]
+    },
+    {
+      "file": "data/source/figure4_quality_reduction_by_member_20260902.csv",
+      "project_relative_source": "output/01_mainline/figure4_future_period_matched_mpei_20260902/source/figure4_quality_reduction_by_member_20260902.csv",
+      "sha256": "ddd0bbb1f30d2e80fbe7f403d10776f01985acf39179f724934149f72aba7cf1",
+      "bytes": 4419,
+      "kind": "derived_project_result",
+      "unchanged_copy": true,
+      "rows": 36,
+      "columns": [
+        "member",
+        "scenario",
+        "region",
+        "historical_continuous_quality_km2_hsi",
+        "future_continuous_quality_km2_hsi",
+        "continuous_quality_reduction_pct",
+        "continuous_quality_retention_pct"
+      ]
+    },
+    {
+      "file": "data/source/ssp126_2050_ensemble_mean_quality_reduction_pct_20260902.tif",
+      "project_relative_source": "output/01_mainline/figure4_future_period_matched_mpei_20260902/source/ssp126_2050_ensemble_mean_quality_reduction_pct_20260902.tif",
+      "sha256": "57fb54a24c031bd69577fd67571ee10502656d2272079b4e5b4159320536a26b",
+      "bytes": 1228865,
+      "kind": "derived_project_result",
+      "unchanged_copy": true
+    },
+    {
+      "file": "data/source/ssp245_2050_ensemble_mean_quality_reduction_pct_20260902.tif",
+      "project_relative_source": "output/01_mainline/figure4_future_period_matched_mpei_20260902/source/ssp245_2050_ensemble_mean_quality_reduction_pct_20260902.tif",
+      "sha256": "f0d9d12f5320b0bb0b325847a9d0e35ecb85d457d53e336f5a822986f4bd4761",
+      "bytes": 1227582,
+      "kind": "derived_project_result",
+      "unchanged_copy": true
+    },
+    {
+      "file": "data/source/ssp585_2050_ensemble_mean_quality_reduction_pct_20260902.tif",
+      "project_relative_source": "output/01_mainline/figure4_future_period_matched_mpei_20260902/source/ssp585_2050_ensemble_mean_quality_reduction_pct_20260902.tif",
+      "sha256": "50ebab03777879be43192ed19f951740174365f4a023a8f163104126f07ca8cb",
+      "bytes": 1225168,
+      "kind": "derived_project_result",
+      "unchanged_copy": true
+    },
+    {
+      "file": "data/source/Supplementary_Table_S5_20260906.csv",
+      "project_relative_source": "output/01_mainline/future_conservation_period_matched_mpei_20260903/tables/Supplementary_Table_S5_20260906.csv",
+      "sha256": "59883132eff829182db456d82fde8a286251dc0a1e08c662edc29402e4518094",
+      "bytes": 1714,
+      "kind": "derived_project_result",
+      "unchanged_copy": true,
+      "rows": 12,
+      "columns": [
+        "region",
+        "scenario",
+        "future_mpei_vs_climate_area_changed_pct",
+        "area_changed_lower_95",
+        "area_changed_upper_95",
+        "future_mpei_vs_climate_mean_mpei_change_pct",
+        "mpei_change_lower_95",
+        "mpei_change_upper_95"
+      ]
+    },
+    {
+      "file": "data/source/regional_mhw_tercile_plot_data_20260807.csv",
+      "project_relative_source": "output/01_mainline/figureS4_mpei_mhw_exposure_20260807/tables/regional_mhw_tercile_plot_data_20260807.csv",
+      "sha256": "e3bee426bdc676d573c1e2fec3c6d766f88e3507bb572f00c7cfc94da5a8caf7",
+      "bytes": 6515,
+      "kind": "derived_project_result",
+      "unchanged_copy": true,
+      "rows": 60,
+      "columns": [
+        "region",
+        "response",
+        "mhw_group",
+        "group_order",
+        "mean_unit_hsi_weighted_mpei_index",
+        "contrast_vs_low_pct",
+        "ci95_low_pct",
+        "ci95_high_pct",
+        "ci95_excludes_zero"
+      ]
+    }
+  ]
+}
