@@ -2,6 +2,8 @@
 
 Primary demo: **[Physiology-constrained MaxEnt training and projection](Physiology_MaxEnt_demo.ipynb)**. [中文说明](README.zh-CN.md)
 
+[Standalone notebook/data/engine package](https://github.com/RugkeyPro/MHW2CoralEcoSys/releases/tag/v4.0.0-physiology-maxent-demo).
+
 This executed notebook starts at the beginning of the study: real occurrence/background inputs → native MaxEnt training → spatial holdout evaluation → baseline and SSP projections → physiological constraint → figures. It is not a conservation-prioritization demo or website.
 
 ## Run

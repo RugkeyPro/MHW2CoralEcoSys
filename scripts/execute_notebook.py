@@ -13,7 +13,7 @@ from ipykernel.kernelspec import write_kernel_spec
 
 ROOT = Path(__file__).resolve().parents[1]
 parser = argparse.ArgumentParser(description=__doc__)
-parser.add_argument('--output', type=Path, default=ROOT / 'outputs/notebook_execution/MHW2CoralEcoSys_demo.executed.ipynb')
+parser.add_argument('--output', type=Path)
 parser.add_argument('--inplace', action='store_true', help='Save successful real outputs into the primary notebook')
 parser.add_argument('--notebook', default='MHW2CoralEcoSys_demo.ipynb')
 args = parser.parse_args()
@@ -47,7 +47,7 @@ if not is_maxent and (checks['environment']['numpy'] != '2.3.5' or checks['envir
     raise RuntimeError('Notebook did not use the pinned scientific environment')
 executed.metadata.kernelspec = {'display_name': 'Python 3 (ipykernel)', 'language': 'python', 'name': 'python3'}
 nbformat.validate(executed)
-target = notebook_path if args.inplace else args.output
+target = notebook_path if args.inplace else (args.output or ROOT / 'outputs/notebook_execution' / f'{notebook_path.stem}.executed.ipynb')
 target.parent.mkdir(parents=True, exist_ok=True)
 nbformat.write(executed, target)
 print(json.dumps({'notebook': target.name, 'executed_code_cells': len(code_cells),

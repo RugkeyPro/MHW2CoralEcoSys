@@ -19,6 +19,7 @@ if checks['status'] != 'passed' or audit['status'] != 'passed':
     raise RuntimeError('Execution and independent input checks are required')
 module = ROOT / 'analysis/modules/physiology_maxent_demo'
 paths = [ROOT / name for name in ['README.md', 'README.zh-CN.md', 'requirements.txt', 'LICENSE',
+                                 '.gitattributes',
                                  'Physiology_MaxEnt_demo.ipynb', 'docs/maxent_input_validation.json',
                                  'scripts/execute_notebook.py', 'scripts/curate_maxent_demo.py',
                                  'scripts/create_maxent_notebook.py', 'scripts/verify_maxent_inputs.py',

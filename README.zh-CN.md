@@ -2,6 +2,8 @@
 
 主入口：[Physiology_MaxEnt_demo.ipynb](Physiology_MaxEnt_demo.ipynb)。已执行并保留真实模型结果、表格和图件。不再以保护配置或网页作为主Demo。
 
+[完整Notebook、实际数据与MaxEnt引擎下载](https://github.com/RugkeyPro/MHW2CoralEcoSys/releases/tag/v4.0.0-physiology-maxent-demo)。Windows与Linux完整执行均通过，13项测试通过；独立来源核验见docs/maxent_input_validation.json。
+
 安装Python 3.12与Java 17+（java放入PATH），创建并激活Python虚拟环境后：
 
 ```powershell
