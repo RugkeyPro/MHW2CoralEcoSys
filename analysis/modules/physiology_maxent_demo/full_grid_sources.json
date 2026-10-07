@@ -1,0 +1,162 @@
+{
+  "member": "gfdl_esm4_r1i1p1f1_gr",
+  "spatial_subsampling": false,
+  "files": [
+    {
+      "file": "static/bathymetry.tif",
+      "original_source": "解压整理/01_ecoMarine/02_data/ecoMarine_0907_20260913_02_data_004/filesystem/D/ecoMarine/data/processed/scenarios_shared_cmip6_ensemble/static_regional/bathymetry.tif",
+      "bytes": 67130472,
+      "sha256": "31b9de9d7adb11760581e2a3b756ec0c5b32fc3fac2bf07aa8ed366a8cd06fdb"
+    },
+    {
+      "file": "static/rugosity.tif",
+      "original_source": "解压整理/01_ecoMarine/02_data/ecoMarine_0907_20260913_02_data_004/filesystem/D/ecoMarine/data/processed/scenarios_shared_cmip6_ensemble/static_regional/rugosity.tif",
+      "bytes": 67129506,
+      "sha256": "dd00655dbd7f77a8235886737eaa55dac26ebe21c1bd44bea7feefc2bdc5304e"
+    },
+    {
+      "file": "baseline/bottomT.tif",
+      "original_source": "解压整理/01_ecoMarine/02_data/ecoMarine_0907_20260913_02_data_004/filesystem/D/ecoMarine/data/processed/scenarios_shared_cmip6_ensemble/members/gfdl_esm4_r1i1p1f1_gr/baseline_regional/bottomT.tif",
+      "bytes": 24316521,
+      "sha256": "09a893b2ba3ef6e8a5472b3125d59f6986777aa8a8b660c3dae0416729a6b935"
+    },
+    {
+      "file": "baseline/thetao.tif",
+      "original_source": "解压整理/01_ecoMarine/02_data/ecoMarine_0907_20260913_02_data_004/filesystem/D/ecoMarine/data/processed/scenarios_shared_cmip6_ensemble/members/gfdl_esm4_r1i1p1f1_gr/baseline_regional/thetao.tif",
+      "bytes": 22805857,
+      "sha256": "ab9a0285858ad4c6bb2078c52214adde9135a91ff5e383f41e20aeff8f34ce4f"
+    },
+    {
+      "file": "baseline/si.tif",
+      "original_source": "解压整理/01_ecoMarine/02_data/ecoMarine_0907_20260913_02_data_004/filesystem/D/ecoMarine/data/processed/scenarios_shared_cmip6_ensemble/members/gfdl_esm4_r1i1p1f1_gr/baseline_regional/si.tif",
+      "bytes": 23549596,
+      "sha256": "0775dff8771f63d030933ccbbd64704957ecd5f3a61b406813d536f01cac6179"
+    },
+    {
+      "file": "baseline/so.tif",
+      "original_source": "解压整理/01_ecoMarine/02_data/ecoMarine_0907_20260913_02_data_004/filesystem/D/ecoMarine/data/processed/scenarios_shared_cmip6_ensemble/members/gfdl_esm4_r1i1p1f1_gr/baseline_regional/so.tif",
+      "bytes": 18850625,
+      "sha256": "8e247efb9172708bcee371bbca7ae8d04ed4632c611fa3ce1e38198ba6632503"
+    },
+    {
+      "file": "baseline/zos.tif",
+      "original_source": "解压整理/01_ecoMarine/02_data/ecoMarine_0907_20260913_02_data_004/filesystem/D/ecoMarine/data/processed/scenarios_shared_cmip6_ensemble/members/gfdl_esm4_r1i1p1f1_gr/baseline_regional/zos.tif",
+      "bytes": 24124046,
+      "sha256": "975cc7a1559ff879d2820c395076e94860eca0e1413ee0825669290387aacadd"
+    },
+    {
+      "file": "baseline/omega_arag.tif",
+      "original_source": "解压整理/01_ecoMarine/02_data/ecoMarine_0907_20260913_02_data_004/filesystem/D/ecoMarine/data/processed/scenarios_shared_cmip6_ensemble/members/gfdl_esm4_r1i1p1f1_gr/baseline_regional/omega_arag.tif",
+      "bytes": 21902563,
+      "sha256": "8cb26c5e981760aa007b1b7293b17944205144438d8ec68abf369d4f3d2ceefe"
+    },
+    {
+      "file": "ssp126_2050/bottomT.tif",
+      "original_source": "解压整理/01_ecoMarine/02_data/ecoMarine_0907_20260913_02_data_004/filesystem/D/ecoMarine/data/processed/scenarios_shared_cmip6_ensemble/members/gfdl_esm4_r1i1p1f1_gr/ssp126_2050_regional/bottomT.tif",
+      "bytes": 24293133,
+      "sha256": "fa652fb28ebeb9de19c5004a042c7760442da61b0e8242bc2c527172338fb2b0"
+    },
+    {
+      "file": "ssp126_2050/thetao.tif",
+      "original_source": "解压整理/01_ecoMarine/02_data/ecoMarine_0907_20260913_02_data_004/filesystem/D/ecoMarine/data/processed/scenarios_shared_cmip6_ensemble/members/gfdl_esm4_r1i1p1f1_gr/ssp126_2050_regional/thetao.tif",
+      "bytes": 22802799,
+      "sha256": "88f2a1388d59f928cb88fcaa5c05fbd4e3de2d890ae25d874426050c400bae62"
+    },
+    {
+      "file": "ssp126_2050/si.tif",
+      "original_source": "解压整理/01_ecoMarine/02_data/ecoMarine_0907_20260913_02_data_004/filesystem/D/ecoMarine/data/processed/scenarios_shared_cmip6_ensemble/members/gfdl_esm4_r1i1p1f1_gr/ssp126_2050_regional/si.tif",
+      "bytes": 23535473,
+      "sha256": "87c71e5f2ef2f8179ba5af68da019d190a1b9609ebb559db8477839cb000e2bc"
+    },
+    {
+      "file": "ssp126_2050/so.tif",
+      "original_source": "解压整理/01_ecoMarine/02_data/ecoMarine_0907_20260913_02_data_004/filesystem/D/ecoMarine/data/processed/scenarios_shared_cmip6_ensemble/members/gfdl_esm4_r1i1p1f1_gr/ssp126_2050_regional/so.tif",
+      "bytes": 18874688,
+      "sha256": "e7582220f9ca00f186eda1424267bac85a08fd763f75b99837fd939e82ea3c2d"
+    },
+    {
+      "file": "ssp126_2050/zos.tif",
+      "original_source": "解压整理/01_ecoMarine/02_data/ecoMarine_0907_20260913_02_data_004/filesystem/D/ecoMarine/data/processed/scenarios_shared_cmip6_ensemble/members/gfdl_esm4_r1i1p1f1_gr/ssp126_2050_regional/zos.tif",
+      "bytes": 24201237,
+      "sha256": "3094cfb95728f9cce29529af81a5681758ce9d19fda0d3505f3e7302190176ee"
+    },
+    {
+      "file": "ssp126_2050/omega_arag.tif",
+      "original_source": "解压整理/01_ecoMarine/02_data/ecoMarine_0907_20260913_02_data_004/filesystem/D/ecoMarine/data/processed/scenarios_shared_cmip6_ensemble/members/gfdl_esm4_r1i1p1f1_gr/ssp126_2050_regional/omega_arag.tif",
+      "bytes": 21923428,
+      "sha256": "a86980662bf2cd60c3f06a23253337321a2b5e02cc164184c6d65fb7bfc916b4"
+    },
+    {
+      "file": "ssp245_2050/bottomT.tif",
+      "original_source": "解压整理/01_ecoMarine/02_data/ecoMarine_0907_20260913_02_data_004/filesystem/D/ecoMarine/data/processed/scenarios_shared_cmip6_ensemble/members/gfdl_esm4_r1i1p1f1_gr/ssp245_2050_regional/bottomT.tif",
+      "bytes": 24289863,
+      "sha256": "c33f273b7eaeb40516552a3ae1878c99f9288805b16693abf5f326b426cd4caa"
+    },
+    {
+      "file": "ssp245_2050/thetao.tif",
+      "original_source": "解压整理/01_ecoMarine/02_data/ecoMarine_0907_20260913_02_data_004/filesystem/D/ecoMarine/data/processed/scenarios_shared_cmip6_ensemble/members/gfdl_esm4_r1i1p1f1_gr/ssp245_2050_regional/thetao.tif",
+      "bytes": 22797268,
+      "sha256": "217de8b79af22892df6bda84c677cb3221fc7e7e958486554cb3bffffa89cafb"
+    },
+    {
+      "file": "ssp245_2050/si.tif",
+      "original_source": "解压整理/01_ecoMarine/02_data/ecoMarine_0907_20260913_02_data_004/filesystem/D/ecoMarine/data/processed/scenarios_shared_cmip6_ensemble/members/gfdl_esm4_r1i1p1f1_gr/ssp245_2050_regional/si.tif",
+      "bytes": 23535207,
+      "sha256": "8873ac0a5565977e1a1b8f75f2bbc03ecd6afc3c2315dcfbcd85795f9a84f95e"
+    },
+    {
+      "file": "ssp245_2050/so.tif",
+      "original_source": "解压整理/01_ecoMarine/02_data/ecoMarine_0907_20260913_02_data_004/filesystem/D/ecoMarine/data/processed/scenarios_shared_cmip6_ensemble/members/gfdl_esm4_r1i1p1f1_gr/ssp245_2050_regional/so.tif",
+      "bytes": 18888606,
+      "sha256": "b6371928865219c46e5c97fed52f7bd023ec481c8ca2b6bc886a31ca18ff3b88"
+    },
+    {
+      "file": "ssp245_2050/zos.tif",
+      "original_source": "解压整理/01_ecoMarine/02_data/ecoMarine_0907_20260913_02_data_004/filesystem/D/ecoMarine/data/processed/scenarios_shared_cmip6_ensemble/members/gfdl_esm4_r1i1p1f1_gr/ssp245_2050_regional/zos.tif",
+      "bytes": 24189744,
+      "sha256": "33fffd4e76e52884721a6ba52233e378bb9e2aaa8649c5b9e02d23541d794784"
+    },
+    {
+      "file": "ssp245_2050/omega_arag.tif",
+      "original_source": "解压整理/01_ecoMarine/02_data/ecoMarine_0907_20260913_02_data_004/filesystem/D/ecoMarine/data/processed/scenarios_shared_cmip6_ensemble/members/gfdl_esm4_r1i1p1f1_gr/ssp245_2050_regional/omega_arag.tif",
+      "bytes": 21868951,
+      "sha256": "f106a7aa3d16ff5e6a2f131ca4193af2ff246a071d608be779d6d4194e7cac23"
+    },
+    {
+      "file": "ssp585_2050/bottomT.tif",
+      "original_source": "解压整理/01_ecoMarine/02_data/ecoMarine_0907_20260913_02_data_004/filesystem/D/ecoMarine/data/processed/scenarios_shared_cmip6_ensemble/members/gfdl_esm4_r1i1p1f1_gr/ssp585_2050_regional/bottomT.tif",
+      "bytes": 24293074,
+      "sha256": "f4137d81080b2b55bab8b9ea88c9c5ddc9480cc62ad0d65dfd343287dd796702"
+    },
+    {
+      "file": "ssp585_2050/thetao.tif",
+      "original_source": "解压整理/01_ecoMarine/02_data/ecoMarine_0907_20260913_02_data_004/filesystem/D/ecoMarine/data/processed/scenarios_shared_cmip6_ensemble/members/gfdl_esm4_r1i1p1f1_gr/ssp585_2050_regional/thetao.tif",
+      "bytes": 22785566,
+      "sha256": "0e710b87ec7fbe130479e90d0abc218e6398860984332584024958ff49fd4894"
+    },
+    {
+      "file": "ssp585_2050/si.tif",
+      "original_source": "解压整理/01_ecoMarine/02_data/ecoMarine_0907_20260913_02_data_004/filesystem/D/ecoMarine/data/processed/scenarios_shared_cmip6_ensemble/members/gfdl_esm4_r1i1p1f1_gr/ssp585_2050_regional/si.tif",
+      "bytes": 23507652,
+      "sha256": "4ab6bcaa8cb6e5453aadf816f0f9523a4259fe60dbc10ec6c411e698a1d19e38"
+    },
+    {
+      "file": "ssp585_2050/so.tif",
+      "original_source": "解压整理/01_ecoMarine/02_data/ecoMarine_0907_20260913_02_data_004/filesystem/D/ecoMarine/data/processed/scenarios_shared_cmip6_ensemble/members/gfdl_esm4_r1i1p1f1_gr/ssp585_2050_regional/so.tif",
+      "bytes": 18866282,
+      "sha256": "7b7300bcf8631bf268eed453e592b4ec24f76fc9851330bf30d7f775e2b66b75"
+    },
+    {
+      "file": "ssp585_2050/zos.tif",
+      "original_source": "解压整理/01_ecoMarine/02_data/ecoMarine_0907_20260913_02_data_004/filesystem/D/ecoMarine/data/processed/scenarios_shared_cmip6_ensemble/members/gfdl_esm4_r1i1p1f1_gr/ssp585_2050_regional/zos.tif",
+      "bytes": 24214006,
+      "sha256": "0fc28802e1a11665da47d7bff35959cd445ed3044e3581d64ea650f35ddaf7b9"
+    },
+    {
+      "file": "ssp585_2050/omega_arag.tif",
+      "original_source": "解压整理/01_ecoMarine/02_data/ecoMarine_0907_20260913_02_data_004/filesystem/D/ecoMarine/data/processed/scenarios_shared_cmip6_ensemble/members/gfdl_esm4_r1i1p1f1_gr/ssp585_2050_regional/omega_arag.tif",
+      "bytes": 21798636,
+      "sha256": "e4e65de33b5a54e46926e39876c33c087d46d10c22feea1b8a07582c5bc1a1bd"
+    }
+  ]
+}

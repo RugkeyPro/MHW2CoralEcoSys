@@ -1,0 +1,9 @@
+{
+  "file": "full_grid_inputs.zip",
+  "bytes": 624654011,
+  "sha256": "23f49af1d2428b5ae4d8d7f44a95bb6c44900fb4d3928e8149d02d3d87a8c9cf",
+  "files": 26,
+  "zip_crc_test": "passed",
+  "spatial_subsampling": false,
+  "url": "https://github.com/RugkeyPro/MHW2CoralEcoSys/releases/download/full-grid-inputs-v1/full_grid_inputs.zip"
+}

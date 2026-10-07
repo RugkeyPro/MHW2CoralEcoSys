@@ -25,7 +25,7 @@ with tempfile.TemporaryDirectory(prefix='mhw2coral-kernel-') as directory:
     write_kernel_spec(path=str(kernel_path))
     manager = KernelManager(kernel_name='mhw2coral-demo',
                             kernel_spec_manager=KernelSpecManager(kernel_dirs=[directory]))
-    client = NotebookClient(notebook, km=manager, timeout=600, allow_errors=False,
+    client = NotebookClient(notebook, km=manager, timeout=2400, allow_errors=False,
                             resources={'metadata': {'path': str(ROOT)}})
     try:
         executed = client.execute()

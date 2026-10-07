@@ -1,5 +1,5 @@
-scenario,locations,valid_hsi,mean_unconstrained,mean_constrained
-baseline,2000,1726,0.043007461764863628,0.036908903405835344
-ssp126_2050,2000,1726,0.047671463258280394,0.037228788550057741
-ssp245_2050,2000,1726,0.048216736733979117,0.035922849179150819
-ssp585_2050,2000,1726,0.049357027502329801,0.033463456405365966
+scenario,width,height,total_grid_cells,native_projected_cells,physiology_complete_cells,missing_training_environment_cells,missing_physiology_after_maxent_cells,area_weighted_mean_unconstrained_on_common_domain,area_weighted_mean_constrained,outside_training_range_cells,elapsed_seconds,native_prediction_complete,spatial_subsampling,source_predictor_precision_preserved,maxent_projection_flags
+baseline,4338,1928,8363664,5603912,5603912,2759752,0,0.016837134507189499,0.014194752145835243,337513,208.25,True,False,True,"['doclamp=true', 'extrapolate=false', 'fadebyclamping=true', 'outputformat=logistic']"
+ssp126_2050,4338,1928,8363664,5603912,5603912,2759752,0,0.017719913346107945,0.013005950667873306,271195,211.41,True,False,True,"['doclamp=true', 'extrapolate=false', 'fadebyclamping=true', 'outputformat=logistic']"
+ssp245_2050,4338,1928,8363664,5603912,5603912,2759752,0,0.017753387603754334,0.012125668565744254,280963,211.99600000000001,True,False,True,"['doclamp=true', 'extrapolate=false', 'fadebyclamping=true', 'outputformat=logistic']"
+ssp585_2050,4338,1928,8363664,5603912,5603912,2759752,0,0.018225376527871481,0.010908301218547842,314241,209.78100000000001,True,False,True,"['doclamp=true', 'extrapolate=false', 'fadebyclamping=true', 'outputformat=logistic']"

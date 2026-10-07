@@ -1,6 +1,6 @@
 {
   "status": "passed",
-  "linux_notebook_ci": {"status": "passed", "validated_commit": "e7723a080a01beeb8700c5e0b4caa557d9799337", "url": "https://github.com/RugkeyPro/MHW2CoralEcoSys/actions/runs/37615157267"},
+  "linux_point_notebook_ci_prior_version": {"status": "passed", "validated_commit": "e7723a080a01beeb8700c5e0b4caa557d9799337", "url": "https://github.com/RugkeyPro/MHW2CoralEcoSys/actions/runs/37615157267"},
   "original_source_hashes_rechecked": 30,
   "subset_numeric_values_exactly_matched": 103500,
   "independently_sampled_raster_values_matched": 288,

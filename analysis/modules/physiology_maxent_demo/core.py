@@ -46,9 +46,9 @@ def java_executable():
     raise RuntimeError('Install Java 17 or newer and place java on PATH.')
 
 
-def run_java(jar, arguments, log):
+def run_java(jar, arguments, log, timeout=300):
     command = [java_executable(), '-Xmx2g', '-Djava.awt.headless=true', '-cp', str(jar)] + arguments
-    result = subprocess.run(command, capture_output=True, text=True, timeout=300)
+    result = subprocess.run(command, capture_output=True, text=True, timeout=timeout)
     log.write_text(result.stdout + '\n' + result.stderr, encoding='utf-8')
     if result.returncode:
         raise RuntimeError(f'MaxEnt failed with code {result.returncode}; inspect {log.name}')

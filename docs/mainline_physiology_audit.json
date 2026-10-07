@@ -1,0 +1,18 @@
+{
+  "date": "2026-10-07",
+  "taxon": "Acropora",
+  "paper": "manuscript_第八版20260806.docx",
+  "verified_identical_mainline_paper_alias": "20260903_mainline_publish/manuscript_第八版20260804.docx",
+  "paper_sha256": "101c85fc99e178e15596ba28616e78ab7e9a6ecfca8af2cd77fe9b72232e69ac",
+  "paper_equation": "Eq. 1: HSI_qit = HSI_MaxEnt_qit * Phi_qit^0.5",
+  "paper_method": "Taxon-specific physiological accessibility functions were evaluated independently from the correlative models and applied after projection",
+  "constraint_stage": "post-projection",
+  "parameter_authority": "Active prepare_figS1_sdm_support_data_20260806.py and branch_05_maxent_projection.R, unchanged archived copies in parent_sources",
+  "parameters": {"T_opt_c": 27.0, "sigma_cold_c": 5.0, "sigma_hot_c": 2.0, "omega_mid": 3.0, "k_omega": 4.0, "outer_gamma": 0.5},
+  "phi_formula": "exp(-(T-27)^2/(2*sigma(T)^2)) / (1+exp(-4*(Omega-3)))",
+  "parameter_interpretation": "Original structural assumptions, not fitted experimental measurements",
+  "mhw_in_phi": false,
+  "physiological_predictor_in_training": false,
+  "paper_and_active_code_combination_rule_match": true,
+  "independent_parent_curve_comparison": {"values_checked": 24381, "maximum_absolute_error": 0.0, "status": "passed"}
+}

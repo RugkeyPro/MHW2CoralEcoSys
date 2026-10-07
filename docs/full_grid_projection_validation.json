@@ -1,0 +1,41 @@
+{
+  "status": "passed",
+  "scope": "Full grid masks/formula plus independent native reprojections",
+  "spatial_subsampling_of_delivered_projection": false,
+  "audit_sample_seed": 20261008,
+  "original_full_grid_source_hashes_rechecked": 26,
+  "scenarios": [
+    {
+      "scenario": "baseline",
+      "entire_grid_cells_mask_checked": 8363664,
+      "valid_native_cells": 5603912,
+      "independent_native_reprojections": 256,
+      "maximum_sample_error": 0.0,
+      "full_constrained_formula_and_missingness": "exact float32 match"
+    },
+    {
+      "scenario": "ssp126_2050",
+      "entire_grid_cells_mask_checked": 8363664,
+      "valid_native_cells": 5603912,
+      "independent_native_reprojections": 256,
+      "maximum_sample_error": 0.0,
+      "full_constrained_formula_and_missingness": "exact float32 match"
+    },
+    {
+      "scenario": "ssp245_2050",
+      "entire_grid_cells_mask_checked": 8363664,
+      "valid_native_cells": 5603912,
+      "independent_native_reprojections": 256,
+      "maximum_sample_error": 0.0,
+      "full_constrained_formula_and_missingness": "exact float32 match"
+    },
+    {
+      "scenario": "ssp585_2050",
+      "entire_grid_cells_mask_checked": 8363664,
+      "valid_native_cells": 5603912,
+      "independent_native_reprojections": 256,
+      "maximum_sample_error": 0.0,
+      "full_constrained_formula_and_missingness": "exact float32 match"
+    }
+  ]
+}

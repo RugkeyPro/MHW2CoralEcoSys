@@ -1,0 +1,5 @@
+# 历史抽样点投影版本
+
+此目录保留此前仅对2,000个位置预测的Notebook及其生成脚本，作为历史记录，不能代表当前全量空间投影。
+
+当前主入口是仓库根目录Physiology_MaxEnt_demo.ipynb，由scripts/create_full_grid_notebook.py生成。当前生成器复用这里已核对的训练和留出验证代码段，但投影使用完整原生环境网格。
