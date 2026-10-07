@@ -4,6 +4,8 @@
 
 [当前全量投影Notebook下载](https://github.com/RugkeyPro/MHW2CoralEcoSys/releases/tag/v5.0.0-full-grid-maxent-demo)。完整栅格数据独立于Git发布，约596MiB，包含26个实际GeoTIFF，下载与解压均核验SHA-256。
 
+同一版本的full_grid_results.zip提供20个已验证GeoTIFF、当前小样本拟合的lambdas和连续地图，可直接查看GIS结果。这是demo派生结果，不是论文四类群正式全集。
+
 安装Python 3.12与Java 17+（java放入PATH），创建并激活Python虚拟环境后：
 
 ```powershell

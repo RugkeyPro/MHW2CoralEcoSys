@@ -37,6 +37,7 @@ paths += [ROOT / name for name in ['scripts/create_full_grid_notebook.py', 'scri
                                   'scripts/package_full_grid_inputs.py', 'scripts/acquire_full_grid_inputs.py',
                                   'docs/mainline_physiology_audit.json', 'tests/test_full_grid.py',
                                   'docs/full_grid_projection_validation.json', 'scripts/verify_full_grid_projection.py',
+                                  'scripts/package_full_grid_results.py',
                                   'archive/point_projection_20261007/create_maxent_notebook.py',
                                   'archive/point_projection_20261007/README.md',
                                   'archive/point_projection_20261007/Physiology_MaxEnt_demo.ipynb']]

@@ -4,6 +4,8 @@ Primary demo: **[Small-sample MaxEnt training and full native-grid projection](P
 
 [Current full-grid notebook package](https://github.com/RugkeyPro/MHW2CoralEcoSys/releases/tag/v5.0.0-full-grid-maxent-demo).
 
+The release also contains `full_grid_results.zip`: twenty verified GeoTIFFs, the newly fitted lambdas and continuous maps. These are derived demo results, not the paper's full four-taxon ensemble.
+
 This executed notebook starts at the beginning of the study: real occurrence/background inputs → native MaxEnt training → spatial holdout evaluation → baseline and SSP projections → physiological constraint → figures. It is not a conservation-prioritization demo or website.
 
 ## Run
