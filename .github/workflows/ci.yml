@@ -1,4 +1,4 @@
-name: Notebook scientific reproduction
+name: Physiology MaxEnt notebook and conservation regression
 on: [push, pull_request, workflow_dispatch]
 permissions:
   contents: read
@@ -12,9 +12,14 @@ jobs:
         with:
           python-version: '3.12'
           cache: pip
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
       - run: pip install -r requirements.txt
       - run: python -m unittest discover -s tests
       - run: python scripts/execute_notebook.py
+      - run: python scripts/execute_notebook.py --notebook Physiology_MaxEnt_demo.ipynb --output outputs/notebook_execution/Physiology_MaxEnt_demo.executed.ipynb
       - uses: actions/upload-artifact@v4
         if: always()
         with:
@@ -22,3 +27,4 @@ jobs:
           path: |
             outputs/notebook_demo/
             outputs/notebook_execution/
+            outputs/physiology_maxent_demo/

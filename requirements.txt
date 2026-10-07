@@ -6,6 +6,7 @@ nbformat==5.10.4
 nbclient==0.10.2
 ipykernel==6.30.1
 jupyterlab==4.4.10
+rasterio==1.4.3
 
 # Optional, only for re-curating inputs from the original project Parquet files:
 # pyarrow>=14,<26

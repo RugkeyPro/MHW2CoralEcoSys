@@ -1,0 +1,2 @@
+"Species","Resolution","MHW_Window","N_Samples","N_Variables","Best_FC","Best_RM","AUC_train","AUC_test","AUC_diff","AICc","N_Params","Selection_Method","CV_Test_AUC_mean","CV_Test_AUC_sd","CV_AUC_diff_mean","CV_AUC_diff_sd"
+"Acropora","global","Standard",8116,7,"LQHP",0.5,0.9201,0.9193,0.000800000000000023,96565.9710550143,42,"ASG_Stable_MaxTestAUC",0.91572,0.00117558496077486,0.00229999999999999,0.00138383525030985

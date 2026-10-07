@@ -1,0 +1,17 @@
+{
+  "status": "passed",
+  "entrypoint": "Physiology_MaxEnt_demo.ipynb",
+  "taxon": "Acropora",
+  "native_maxent_version": "3.4.4",
+  "presence_rows": 1500,
+  "background_rows": 10000,
+  "training_presence_rows": 1306,
+  "training_background_rows": 7911,
+  "spatial_holdout_presence_background_auc": 0.9522461790527703,
+  "projection_rows": 8000,
+  "valid_constrained_rows": 6904,
+  "elapsed_seconds": 17.872,
+  "full_parent_reproduction": false,
+  "constraint_location": "Post-projection multiplication, not training-objective modification",
+  "original_sources_modified": false
+}
