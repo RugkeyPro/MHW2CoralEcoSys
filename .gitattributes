@@ -11,4 +11,6 @@
 *.yaml text eol=lf
 *.md text eol=lf
 research_workflow/*.py -text whitespace=cr-at-eol,-blank-at-eof
+analysis/modules/physiology_maxent_demo/parent_sources/** -text whitespace=cr-at-eol,-blank-at-eof
+analysis/modules/physiology_maxent_demo/vendor/** -text
 examples/expected_outputs/*.svg -whitespace
