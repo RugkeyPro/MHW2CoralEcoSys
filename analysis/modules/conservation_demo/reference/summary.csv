@@ -1,0 +1,277 @@
+region,scenario,metric,estimate,lower_95,upper_95,n_bootstrap,outside_percentile_interval
+Global,ssp126_2050,candidate_reef_area_km2,50252.85648115752,16371.298173354158,71988.25006164455,1000,False
+Global,ssp126_2050,mpa_budget_km2,28708.041714586958,7489.003364281854,49514.97863634847,1000,False
+Global,ssp126_2050,total_area_weighted_suitability_support,31197.73059465953,12832.8481175393,58507.48811646633,1000,False
+Global,ssp126_2050,existing_mpa_selected_area_km2,28708.041714586958,7489.003364281854,49514.97863634847,1000,False
+Global,ssp126_2050,existing_mpa_captured_co_suitability_fraction,0.591836292747889,0.33321243531989103,0.7371061151200773,1000,False
+Global,ssp126_2050,existing_mpa_mean_future_mpei_kg_m3,2.092219811966872e-08,1.7788077988411436e-08,3.295135679401116e-08,1000,False
+Global,ssp126_2050,existing_mpa_mpei_supported_selected_area_fraction,0.9606695443758679,0.8291477560718172,0.9990588876806877,1000,False
+Global,ssp126_2050,existing_mpa_mpei_supported_captured_co_suitability_fraction,0.9540565734125727,0.7966269272467355,0.9990081455590332,1000,False
+Global,ssp126_2050,climate_priority_selected_area_km2,28708.04171458695,7489.003364281855,49514.97863634847,1000,False
+Global,ssp126_2050,climate_priority_captured_co_suitability_fraction,0.7059579920703675,0.43662685906564375,0.8273643952460852,1000,False
+Global,ssp126_2050,climate_priority_mean_future_mpei_kg_m3,2.3615667739914998e-08,1.941856244807848e-08,3.398364858733361e-08,1000,False
+Global,ssp126_2050,climate_priority_mpei_supported_selected_area_fraction,0.9101922359598198,0.7304795298206562,0.9905121236606766,1000,False
+Global,ssp126_2050,climate_priority_mpei_supported_captured_co_suitability_fraction,0.8992163562145099,0.69397159792226,0.9905060968110972,1000,False
+Global,ssp126_2050,future_mpei_priority_selected_area_km2,28708.04171458696,7489.003364281854,49514.97863634846,1000,False
+Global,ssp126_2050,future_mpei_priority_captured_co_suitability_fraction,0.7059579920703677,0.43662685906564375,0.827364395246085,1000,False
+Global,ssp126_2050,future_mpei_priority_mean_future_mpei_kg_m3,2.5162117164144084e-08,2.0053367772172687e-08,4.174614482297101e-08,1000,False
+Global,ssp126_2050,future_mpei_priority_mpei_supported_selected_area_fraction,0.94765739495425,0.7918000863761664,1.0,1000,False
+Global,ssp126_2050,future_mpei_priority_mpei_supported_captured_co_suitability_fraction,0.9317728799938124,0.7317269184472822,1.0,1000,False
+Global,ssp126_2050,future_mpei_vs_climate_co_suitability_retained_fraction,1.0000000000000002,0.9999999999999997,1.0000000000000002,1000,False
+Global,ssp126_2050,future_mpei_vs_climate_mean_mpei_change_pct,6.548404395168937,0.0,31.430850349547338,1000,False
+Global,ssp126_2050,future_mpei_vs_existing_mean_mpei_change_pct,20.26517013281442,5.639866631240295,54.78958426598185,1000,False
+Global,ssp126_2050,future_mpei_vs_climate_area_changed_fraction,0.16019354924440543,0.01971041484166382,0.5071890913451741,1000,False
+Global,ssp126_2050,maximum_area_budget_closure_error_km2,7.275957614183426e-12,0.0,7.275957614183426e-12,1000,False
+Global,ssp245_2050,candidate_reef_area_km2,45919.71115075855,14768.370199260069,66889.86704699368,1000,False
+Global,ssp245_2050,mpa_budget_km2,27300.693903603882,6929.836967734916,48692.57644822201,1000,False
+Global,ssp245_2050,total_area_weighted_suitability_support,27966.4274107013,11218.468972213734,53485.112750555374,1000,False
+Global,ssp245_2050,existing_mpa_selected_area_km2,27300.693903603882,6929.836967734916,48692.57644822201,1000,False
+Global,ssp245_2050,existing_mpa_captured_co_suitability_fraction,0.6149676866971581,0.33663155828369,0.7667224612519433,1000,False
+Global,ssp245_2050,existing_mpa_mean_future_mpei_kg_m3,2.05893291375325e-08,1.7426919615105653e-08,3.367782192058083e-08,1000,False
+Global,ssp245_2050,existing_mpa_mpei_supported_selected_area_fraction,0.958619167040849,0.815239925533066,0.998905306328302,1000,False
+Global,ssp245_2050,existing_mpa_mpei_supported_captured_co_suitability_fraction,0.9531455995285701,0.7808179855206188,0.9988975112393491,1000,False
+Global,ssp245_2050,climate_priority_selected_area_km2,27300.69390360388,6929.836967734915,48692.57644822201,1000,False
+Global,ssp245_2050,climate_priority_captured_co_suitability_fraction,0.7449304505226294,0.43289742007366855,0.8549361776013839,1000,False
+Global,ssp245_2050,climate_priority_mean_future_mpei_kg_m3,2.3871878042318197e-08,1.9233736199357357e-08,3.572459378749231e-08,1000,False
+Global,ssp245_2050,climate_priority_mpei_supported_selected_area_fraction,0.9159619085764072,0.711876236232624,0.9925498198406695,1000,False
+Global,ssp245_2050,climate_priority_mpei_supported_captured_co_suitability_fraction,0.9038810280796865,0.6653216261066137,0.9925498198406695,1000,False
+Global,ssp245_2050,future_mpei_priority_selected_area_km2,27300.693903603882,6929.836967734916,48692.57644822201,1000,False
+Global,ssp245_2050,future_mpei_priority_captured_co_suitability_fraction,0.7449304505226295,0.4328974200736686,0.8549361776013839,1000,False
+Global,ssp245_2050,future_mpei_priority_mean_future_mpei_kg_m3,2.4637527056378013e-08,1.981393258022782e-08,4.393984842952026e-08,1000,False
+Global,ssp245_2050,future_mpei_priority_mpei_supported_selected_area_fraction,0.9480322472072862,0.7723307532100373,1.0,1000,False
+Global,ssp245_2050,future_mpei_priority_mpei_supported_captured_co_suitability_fraction,0.9318987779837876,0.7103900818636378,1.0,1000,False
+Global,ssp245_2050,future_mpei_vs_climate_co_suitability_retained_fraction,1.0000000000000002,0.9999999999999997,1.0000000000000002,1000,False
+Global,ssp245_2050,future_mpei_vs_climate_mean_mpei_change_pct,3.2073262635747954,-1.3719329094979705e-14,32.15777701870493,1000,False
+Global,ssp245_2050,future_mpei_vs_existing_mean_mpei_change_pct,19.661630992464012,8.252330655462897,59.33703808868324,1000,False
+Global,ssp245_2050,future_mpei_vs_climate_area_changed_fraction,0.0890659444469144,0.009028250998723937,0.49096825089298907,1000,False
+Global,ssp245_2050,maximum_area_budget_closure_error_km2,3.637978807091713e-12,0.0,7.275957614183426e-12,1000,False
+Global,ssp585_2050,candidate_reef_area_km2,35628.19044227018,10821.806477638062,54239.849558818736,1000,False
+Global,ssp585_2050,mpa_budget_km2,20985.528881763315,4716.236039690391,39390.79818680323,1000,False
+Global,ssp585_2050,total_area_weighted_suitability_support,20692.921969190258,7768.891696074565,40798.01583086981,1000,False
+Global,ssp585_2050,existing_mpa_selected_area_km2,20985.528881763315,4716.236039690391,39390.79818680323,1000,False
+Global,ssp585_2050,existing_mpa_captured_co_suitability_fraction,0.6157541748640328,0.3178219405237897,0.7814528417509414,1000,False
+Global,ssp585_2050,existing_mpa_mean_future_mpei_kg_m3,2.0800585027529483e-08,1.7290952182702856e-08,3.622725212563263e-08,1000,False
+Global,ssp585_2050,existing_mpa_mpei_supported_selected_area_fraction,0.9432530570497989,0.7334385647917938,0.9985898958620019,1000,False
+Global,ssp585_2050,existing_mpa_mpei_supported_captured_co_suitability_fraction,0.9280078727838286,0.6452989664958787,0.9985847168484586,1000,False
+Global,ssp585_2050,climate_priority_selected_area_km2,20985.528881763315,4716.236039690391,39390.79818680323,1000,False
+Global,ssp585_2050,climate_priority_captured_co_suitability_fraction,0.7641276957356342,0.4279218879384188,0.8685795736455555,1000,False
+Global,ssp585_2050,climate_priority_mean_future_mpei_kg_m3,2.4584025595069483e-08,1.9254310291201587e-08,3.765539376515235e-08,1000,False
+Global,ssp585_2050,climate_priority_mpei_supported_selected_area_fraction,0.8872492550974381,0.5904181296764479,0.9891331584974424,1000,False
+Global,ssp585_2050,climate_priority_mpei_supported_captured_co_suitability_fraction,0.8663187498929928,0.5161597026995607,0.992412769357114,1000,False
+Global,ssp585_2050,future_mpei_priority_selected_area_km2,20985.52888176331,4716.236039690391,39390.79818680322,1000,False
+Global,ssp585_2050,future_mpei_priority_captured_co_suitability_fraction,0.7641276957356342,0.42792188793841873,0.8685795736455553,1000,False
+Global,ssp585_2050,future_mpei_priority_mean_future_mpei_kg_m3,2.51650764270688e-08,2.0231297654326705e-08,4.68641515598526e-08,1000,False
+Global,ssp585_2050,future_mpei_priority_mpei_supported_selected_area_fraction,0.8902494347446246,0.6262007633746586,1.0,1000,False
+Global,ssp585_2050,future_mpei_priority_mpei_supported_captured_co_suitability_fraction,0.867646016486722,0.5498576067768964,1.0,1000,False
+Global,ssp585_2050,future_mpei_vs_climate_co_suitability_retained_fraction,1.0,0.9999999999999997,1.0000000000000002,1000,False
+Global,ssp585_2050,future_mpei_vs_climate_mean_mpei_change_pct,2.3635300482108628,-1.877915095409115e-14,34.63807181903399,1000,False
+Global,ssp585_2050,future_mpei_vs_existing_mean_mpei_change_pct,20.982541566801757,6.313877731306963,66.75669454724246,1000,False
+Global,ssp585_2050,future_mpei_vs_climate_area_changed_fraction,0.021138870013368893,0.00651176087472038,0.520067545341025,1000,False
+Global,ssp585_2050,maximum_area_budget_closure_error_km2,3.637978807091713e-12,0.0,7.275957614183426e-12,1000,False
+Caribbean,ssp126_2050,candidate_reef_area_km2,6530.976929308825,1160.9245302725778,10868.655300891747,1000,False
+Caribbean,ssp126_2050,mpa_budget_km2,2509.1456466044892,463.5427818188656,4063.0853433970296,1000,False
+Caribbean,ssp126_2050,total_area_weighted_suitability_support,3629.5088788155435,996.5730045334183,8166.551700748006,1000,False
+Caribbean,ssp126_2050,existing_mpa_selected_area_km2,2509.1456466044892,463.5427818188656,4063.0853433970296,1000,False
+Caribbean,ssp126_2050,existing_mpa_captured_co_suitability_fraction,0.37758325219546096,0.2032263826693556,0.646436368216223,1000,False
+Caribbean,ssp126_2050,existing_mpa_mean_future_mpei_kg_m3,3.9153222140544985e-08,3.528545142889952e-08,4.558262504004366e-08,1000,False
+Caribbean,ssp126_2050,existing_mpa_mpei_supported_selected_area_fraction,1.0,1.0,1.0,1000,False
+Caribbean,ssp126_2050,existing_mpa_mpei_supported_captured_co_suitability_fraction,1.0,1.0,1.0,1000,False
+Caribbean,ssp126_2050,climate_priority_selected_area_km2,2509.1456466044892,463.5427818188656,4063.0853433970296,1000,False
+Caribbean,ssp126_2050,climate_priority_captured_co_suitability_fraction,0.5514379250497137,0.25392197343151296,0.7593519995607004,1000,False
+Caribbean,ssp126_2050,climate_priority_mean_future_mpei_kg_m3,4.230109996314078e-08,3.554172274629188e-08,4.978295455691712e-08,1000,False
+Caribbean,ssp126_2050,climate_priority_mpei_supported_selected_area_fraction,1.0,1.0,1.0,1000,False
+Caribbean,ssp126_2050,climate_priority_mpei_supported_captured_co_suitability_fraction,1.0,1.0,1.0,1000,False
+Caribbean,ssp126_2050,future_mpei_priority_selected_area_km2,2509.1456466044892,463.54278181886576,4063.0853433970287,1000,False
+Caribbean,ssp126_2050,future_mpei_priority_captured_co_suitability_fraction,0.5514379250497137,0.2539219734315129,0.7593519995607002,1000,False
+Caribbean,ssp126_2050,future_mpei_priority_mean_future_mpei_kg_m3,4.5550851684715134e-08,3.61501234077674e-08,6.10884914525033e-08,1000,False
+Caribbean,ssp126_2050,future_mpei_priority_mpei_supported_selected_area_fraction,1.0,1.0,1.0,1000,False
+Caribbean,ssp126_2050,future_mpei_priority_mpei_supported_captured_co_suitability_fraction,1.0,1.0,1.0,1000,False
+Caribbean,ssp126_2050,future_mpei_vs_climate_co_suitability_retained_fraction,1.0,0.9999999999999997,1.0000000000000004,1000,False
+Caribbean,ssp126_2050,future_mpei_vs_climate_mean_mpei_change_pct,7.68242841062298,0.6332058098543151,30.53074789704777,1000,False
+Caribbean,ssp126_2050,future_mpei_vs_existing_mean_mpei_change_pct,16.339982240044314,-7.472147948125177,49.459614978523625,1000,False
+Caribbean,ssp126_2050,future_mpei_vs_climate_area_changed_fraction,0.21917308815681136,0.02408889850202972,0.7181226427307296,1000,False
+Caribbean,ssp126_2050,maximum_area_budget_closure_error_km2,0.0,0.0,9.094947017729282e-13,1000,False
+Caribbean,ssp245_2050,candidate_reef_area_km2,6587.63387587282,1195.2106331752516,10869.698132188405,1000,False
+Caribbean,ssp245_2050,mpa_budget_km2,2440.708100894136,466.60838149891543,3984.6668079384863,1000,False
+Caribbean,ssp245_2050,total_area_weighted_suitability_support,3682.0994725785245,971.7906980738278,8276.261334502567,1000,False
+Caribbean,ssp245_2050,existing_mpa_selected_area_km2,2440.708100894136,466.60838149891543,3984.6668079384863,1000,False
+Caribbean,ssp245_2050,existing_mpa_captured_co_suitability_fraction,0.3638130126820884,0.1957787874089543,0.6333300477640876,1000,False
+Caribbean,ssp245_2050,existing_mpa_mean_future_mpei_kg_m3,3.932933622142402e-08,3.5268868287508937e-08,4.5803338876539795e-08,1000,False
+Caribbean,ssp245_2050,existing_mpa_mpei_supported_selected_area_fraction,1.0,1.0,1.0,1000,False
+Caribbean,ssp245_2050,existing_mpa_mpei_supported_captured_co_suitability_fraction,1.0,1.0,1.0,1000,False
+Caribbean,ssp245_2050,climate_priority_selected_area_km2,2440.7081008941354,466.60838149891543,3984.6668079384863,1000,False
+Caribbean,ssp245_2050,climate_priority_captured_co_suitability_fraction,0.5276386190340652,0.23706242768033145,0.7520661892359848,1000,False
+Caribbean,ssp245_2050,climate_priority_mean_future_mpei_kg_m3,4.2619981466681204e-08,3.547611529939797e-08,5.059884783087593e-08,1000,False
+Caribbean,ssp245_2050,climate_priority_mpei_supported_selected_area_fraction,1.0,1.0,1.0,1000,False
+Caribbean,ssp245_2050,climate_priority_mpei_supported_captured_co_suitability_fraction,1.0,1.0,1.0,1000,False
+Caribbean,ssp245_2050,future_mpei_priority_selected_area_km2,2440.7081008941354,466.60838149891543,3984.6668079384863,1000,False
+Caribbean,ssp245_2050,future_mpei_priority_captured_co_suitability_fraction,0.5276386190340652,0.23706242768033145,0.7520661892359847,1000,False
+Caribbean,ssp245_2050,future_mpei_priority_mean_future_mpei_kg_m3,4.6475285869050926e-08,3.6088147558472634e-08,6.239806774195294e-08,1000,False
+Caribbean,ssp245_2050,future_mpei_priority_mpei_supported_selected_area_fraction,1.0,1.0,1.0,1000,False
+Caribbean,ssp245_2050,future_mpei_priority_mpei_supported_captured_co_suitability_fraction,1.0,1.0,1.0,1000,False
+Caribbean,ssp245_2050,future_mpei_vs_climate_co_suitability_retained_fraction,1.0,0.9999999999999997,1.0000000000000004,1000,False
+Caribbean,ssp245_2050,future_mpei_vs_climate_mean_mpei_change_pct,9.045767430433218,0.5291025634960427,32.06416000828255,1000,False
+Caribbean,ssp245_2050,future_mpei_vs_existing_mean_mpei_change_pct,18.169515008835216,-8.715585101179009,51.904831944514605,1000,False
+Caribbean,ssp245_2050,future_mpei_vs_climate_area_changed_fraction,0.2552267635691996,0.022679128274699235,0.7330840989884343,1000,False
+Caribbean,ssp245_2050,maximum_area_budget_closure_error_km2,4.547473508864641e-13,0.0,9.094947017729282e-13,1000,False
+Caribbean,ssp585_2050,candidate_reef_area_km2,6678.128417957573,798.1199329640009,10911.537583535883,1000,False
+Caribbean,ssp585_2050,mpa_budget_km2,2423.4145753627913,276.8353459362525,3964.610753733803,1000,False
+Caribbean,ssp585_2050,total_area_weighted_suitability_support,3383.734842812509,631.2914432693319,7847.830357370528,1000,False
+Caribbean,ssp585_2050,existing_mpa_selected_area_km2,2423.4145753627913,276.8353459362525,3964.610753733803,1000,False
+Caribbean,ssp585_2050,existing_mpa_captured_co_suitability_fraction,0.3415488951745075,0.17591916257288498,0.6119313788808947,1000,False
+Caribbean,ssp585_2050,existing_mpa_mean_future_mpei_kg_m3,3.9884909794738023e-08,3.543526348327448e-08,4.5922126518259305e-08,1000,False
+Caribbean,ssp585_2050,existing_mpa_mpei_supported_selected_area_fraction,1.0,1.0,1.0,1000,False
+Caribbean,ssp585_2050,existing_mpa_mpei_supported_captured_co_suitability_fraction,1.0,1.0,1.0,1000,False
+Caribbean,ssp585_2050,climate_priority_selected_area_km2,2423.4145753627913,276.8353459362525,3964.610753733803,1000,False
+Caribbean,ssp585_2050,climate_priority_captured_co_suitability_fraction,0.5274055720870379,0.2192684530585904,0.7115081757599719,1000,False
+Caribbean,ssp585_2050,climate_priority_mean_future_mpei_kg_m3,4.431947149173689e-08,3.549764492724334e-08,5.126405416258894e-08,1000,False
+Caribbean,ssp585_2050,climate_priority_mpei_supported_selected_area_fraction,1.0,1.0,1.0,1000,False
+Caribbean,ssp585_2050,climate_priority_mpei_supported_captured_co_suitability_fraction,1.0,1.0,1.0,1000,False
+Caribbean,ssp585_2050,future_mpei_priority_selected_area_km2,2423.414575362791,276.8353459362525,3964.610753733803,1000,False
+Caribbean,ssp585_2050,future_mpei_priority_captured_co_suitability_fraction,0.527405572087038,0.21926845305859036,0.7115081757599719,1000,False
+Caribbean,ssp585_2050,future_mpei_priority_mean_future_mpei_kg_m3,4.7094187671799176e-08,3.620600195840822e-08,6.417393204207965e-08,1000,False
+Caribbean,ssp585_2050,future_mpei_priority_mpei_supported_selected_area_fraction,1.0,1.0,1.0,1000,False
+Caribbean,ssp585_2050,future_mpei_priority_mpei_supported_captured_co_suitability_fraction,1.0,1.0,1.0,1000,False
+Caribbean,ssp585_2050,future_mpei_vs_climate_co_suitability_retained_fraction,1.0000000000000002,0.9999999999999997,1.0000000000000002,1000,False
+Caribbean,ssp585_2050,future_mpei_vs_climate_mean_mpei_change_pct,6.260715858445241,0.41956715461259303,33.38317862764913,1000,False
+Caribbean,ssp585_2050,future_mpei_vs_existing_mean_mpei_change_pct,18.075201659381126,-8.865174648756307,55.40985911312981,1000,False
+Caribbean,ssp585_2050,future_mpei_vs_climate_area_changed_fraction,0.17448930501062698,0.018598046391563334,0.756725830890529,1000,False
+Caribbean,ssp585_2050,maximum_area_budget_closure_error_km2,4.547473508864641e-13,0.0,9.094947017729282e-13,1000,False
+GBR,ssp126_2050,candidate_reef_area_km2,21327.742310348345,3465.102234448021,42354.40715637273,1000,False
+GBR,ssp126_2050,mpa_budget_km2,19115.917211607706,1666.793895636275,38925.0462886103,1000,False
+GBR,ssp126_2050,total_area_weighted_suitability_support,14468.335785042871,2001.9007092842417,34175.85833070068,1000,False
+GBR,ssp126_2050,existing_mpa_selected_area_km2,19115.917211607706,1666.793895636275,38925.0462886103,1000,False
+GBR,ssp126_2050,existing_mpa_captured_co_suitability_fraction,0.9050513394785146,0.6332707586820451,0.9754140369475245,998,False
+GBR,ssp126_2050,existing_mpa_mean_future_mpei_kg_m3,1.6086483585316096e-08,1.4856507510381837e-08,1.7564133586169097e-08,991,False
+GBR,ssp126_2050,existing_mpa_mpei_supported_selected_area_fraction,1.0,1.0,1.0,991,False
+GBR,ssp126_2050,existing_mpa_mpei_supported_captured_co_suitability_fraction,1.0,1.0,1.0,991,False
+GBR,ssp126_2050,climate_priority_selected_area_km2,19115.91721160771,1666.793895636275,38925.0462886103,1000,False
+GBR,ssp126_2050,climate_priority_captured_co_suitability_fraction,0.9490421674014692,0.6970057720372559,0.9852159313896195,998,False
+GBR,ssp126_2050,climate_priority_mean_future_mpei_kg_m3,1.592302584989745e-08,1.4574597171833637e-08,1.7498223868540762e-08,991,False
+GBR,ssp126_2050,climate_priority_mpei_supported_selected_area_fraction,1.0,1.0,1.0,991,False
+GBR,ssp126_2050,climate_priority_mpei_supported_captured_co_suitability_fraction,1.0,1.0,1.0,991,False
+GBR,ssp126_2050,future_mpei_priority_selected_area_km2,19115.917211607702,1666.793895636275,38925.04628861029,1000,False
+GBR,ssp126_2050,future_mpei_priority_captured_co_suitability_fraction,0.9490421674014691,0.6970057720372558,0.9852159313896195,998,False
+GBR,ssp126_2050,future_mpei_priority_mean_future_mpei_kg_m3,1.5963733015088645e-08,1.4713759917609009e-08,1.7564944375078025e-08,991,False
+GBR,ssp126_2050,future_mpei_priority_mpei_supported_selected_area_fraction,1.0,1.0,1.0,991,False
+GBR,ssp126_2050,future_mpei_priority_mpei_supported_captured_co_suitability_fraction,1.0,1.0,1.0,991,False
+GBR,ssp126_2050,future_mpei_vs_climate_co_suitability_retained_fraction,0.9999999999999999,0.9999999999999997,1.0000000000000002,991,False
+GBR,ssp126_2050,future_mpei_vs_climate_mean_mpei_change_pct,0.25564968351449296,0.026899244774133534,2.9175280097806353,991,False
+GBR,ssp126_2050,future_mpei_vs_existing_mean_mpei_change_pct,-0.7630665183999485,-1.4108537640476564,1.462027035872117,991,False
+GBR,ssp126_2050,future_mpei_vs_climate_area_changed_fraction,0.04592036847893788,0.0028094639667618215,0.22890397543264307,991,False
+GBR,ssp126_2050,maximum_area_budget_closure_error_km2,3.637978807091713e-12,0.0,7.275957614183426e-12,1000,False
+GBR,ssp245_2050,candidate_reef_area_km2,20854.65883530613,2871.8454748744757,41558.32899606001,1000,False
+GBR,ssp245_2050,mpa_budget_km2,18921.709649134653,1713.7386282302268,38082.51117394694,1000,False
+GBR,ssp245_2050,total_area_weighted_suitability_support,13731.580917287403,1733.301832726688,31700.13871705267,1000,False
+GBR,ssp245_2050,existing_mpa_selected_area_km2,18921.709649134653,1713.7386282302268,38082.51117394694,1000,False
+GBR,ssp245_2050,existing_mpa_captured_co_suitability_fraction,0.9185416559094275,0.6887721759399265,0.9837828207630358,998,False
+GBR,ssp245_2050,existing_mpa_mean_future_mpei_kg_m3,1.6038309103970512e-08,1.486363258911329e-08,1.7612666489013538e-08,991,False
+GBR,ssp245_2050,existing_mpa_mpei_supported_selected_area_fraction,1.0,1.0,1.0,991,False
+GBR,ssp245_2050,existing_mpa_mpei_supported_captured_co_suitability_fraction,1.0,1.0,1.0,991,False
+GBR,ssp245_2050,climate_priority_selected_area_km2,18921.709649134653,1713.7386282302266,38082.51117394694,1000,False
+GBR,ssp245_2050,climate_priority_captured_co_suitability_fraction,0.9530777701947394,0.7372125612360765,0.9881225248223526,998,False
+GBR,ssp245_2050,climate_priority_mean_future_mpei_kg_m3,1.5895374021571925e-08,1.4595990060305236e-08,1.7576667334157187e-08,991,False
+GBR,ssp245_2050,climate_priority_mpei_supported_selected_area_fraction,1.0,1.0,1.0,991,False
+GBR,ssp245_2050,climate_priority_mpei_supported_captured_co_suitability_fraction,1.0,1.0,1.0,991,False
+GBR,ssp245_2050,future_mpei_priority_selected_area_km2,18921.709649134653,1713.7386282302268,38082.511173946936,1000,False
+GBR,ssp245_2050,future_mpei_priority_captured_co_suitability_fraction,0.9530777701947393,0.7372125612360767,0.9881225248223526,998,False
+GBR,ssp245_2050,future_mpei_priority_mean_future_mpei_kg_m3,1.5959082297126314e-08,1.4703881679165786e-08,1.7634802796467895e-08,991,False
+GBR,ssp245_2050,future_mpei_priority_mpei_supported_selected_area_fraction,1.0,1.0,1.0,991,False
+GBR,ssp245_2050,future_mpei_priority_mpei_supported_captured_co_suitability_fraction,1.0,1.0,1.0,991,False
+GBR,ssp245_2050,future_mpei_vs_climate_co_suitability_retained_fraction,0.9999999999999999,0.9999999999999997,1.0000000000000002,991,False
+GBR,ssp245_2050,future_mpei_vs_climate_mean_mpei_change_pct,0.40079758719693503,0.02407325029013397,2.7750480043407615,991,False
+GBR,ssp245_2050,future_mpei_vs_existing_mean_mpei_change_pct,-0.493984785619229,-1.2221791530147685,1.2669420650465408,991,False
+GBR,ssp245_2050,future_mpei_vs_climate_area_changed_fraction,0.061958054022341336,0.003892108846893977,0.2055974363574745,991,False
+GBR,ssp245_2050,maximum_area_budget_closure_error_km2,0.0,0.0,7.275957614183426e-12,1000,False
+GBR,ssp585_2050,candidate_reef_area_km2,15266.626461506932,1311.3767965152977,33040.59283731488,1000,False
+GBR,ssp585_2050,mpa_budget_km2,14138.871756781979,1026.6803268692647,31131.085421246455,1000,False
+GBR,ssp585_2050,total_area_weighted_suitability_support,9639.04352874228,679.5562111295741,24595.910185117908,1000,False
+GBR,ssp585_2050,existing_mpa_selected_area_km2,14138.871756781979,1026.6803268692647,31131.085421246455,1000,False
+GBR,ssp585_2050,existing_mpa_captured_co_suitability_fraction,0.9501830890018698,0.7462372024011119,0.9966530320426137,998,False
+GBR,ssp585_2050,existing_mpa_mean_future_mpei_kg_m3,1.578890149628835e-08,1.486196575834012e-08,1.768524846087726e-08,991,False
+GBR,ssp585_2050,existing_mpa_mpei_supported_selected_area_fraction,1.0,1.0,1.0,991,False
+GBR,ssp585_2050,existing_mpa_mpei_supported_captured_co_suitability_fraction,1.0,1.0,1.0,991,False
+GBR,ssp585_2050,climate_priority_selected_area_km2,14138.871756781979,1026.6803268692645,31131.085421246455,1000,False
+GBR,ssp585_2050,climate_priority_captured_co_suitability_fraction,0.9610004629829316,0.7891127001078325,0.9982183459763462,998,False
+GBR,ssp585_2050,climate_priority_mean_future_mpei_kg_m3,1.571423140961697e-08,1.4656918793737188e-08,1.7628269769011046e-08,991,False
+GBR,ssp585_2050,climate_priority_mpei_supported_selected_area_fraction,1.0,1.0,1.0,991,False
+GBR,ssp585_2050,climate_priority_mpei_supported_captured_co_suitability_fraction,1.0,1.0,1.0,991,False
+GBR,ssp585_2050,future_mpei_priority_selected_area_km2,14138.871756781979,1026.6803268692647,31131.085421246455,1000,False
+GBR,ssp585_2050,future_mpei_priority_captured_co_suitability_fraction,0.9610004629829317,0.7891127001078323,0.9982183459763461,998,False
+GBR,ssp585_2050,future_mpei_priority_mean_future_mpei_kg_m3,1.582805962626892e-08,1.474988625951233e-08,1.7700600768459738e-08,991,False
+GBR,ssp585_2050,future_mpei_priority_mpei_supported_selected_area_fraction,1.0,1.0,1.0,991,False
+GBR,ssp585_2050,future_mpei_priority_mpei_supported_captured_co_suitability_fraction,1.0,1.0,1.0,991,False
+GBR,ssp585_2050,future_mpei_vs_climate_co_suitability_retained_fraction,1.0000000000000002,0.9999999999999997,1.0000000000000002,991,False
+GBR,ssp585_2050,future_mpei_vs_climate_mean_mpei_change_pct,0.7243638819159148,0.008564711780343027,1.90135441668299,991,False
+GBR,ssp585_2050,future_mpei_vs_existing_mean_mpei_change_pct,0.24801047742159035,-0.9624929417466412,0.9211031861583311,991,False
+GBR,ssp585_2050,future_mpei_vs_climate_area_changed_fraction,0.05989238460626101,0.0021177404778554287,0.18711386057708687,991,False
+GBR,ssp585_2050,maximum_area_budget_closure_error_km2,0.0,0.0,3.637978807091713e-12,1000,False
+Southeast Asia,ssp126_2050,candidate_reef_area_km2,4665.855488665096,909.4383750735847,6584.4779327719225,1000,False
+Southeast Asia,ssp126_2050,mpa_budget_km2,830.0450862071842,200.39522360759042,1157.0271402479366,1000,False
+Southeast Asia,ssp126_2050,total_area_weighted_suitability_support,2386.1379430544794,654.7061080880588,4757.292017375104,1000,False
+Southeast Asia,ssp126_2050,existing_mpa_selected_area_km2,830.0450862071842,200.39522360759042,1157.0271402479366,1000,False
+Southeast Asia,ssp126_2050,existing_mpa_captured_co_suitability_fraction,0.1518545386794462,0.07877684514224852,0.3147309084953149,1000,False
+Southeast Asia,ssp126_2050,existing_mpa_mean_future_mpei_kg_m3,3.509631296776648e-08,2.4697727762825223e-08,4.3496298383947624e-08,1000,False
+Southeast Asia,ssp126_2050,existing_mpa_mpei_supported_selected_area_fraction,1.0,1.0,1.0,1000,False
+Southeast Asia,ssp126_2050,existing_mpa_mpei_supported_captured_co_suitability_fraction,1.0,1.0,1.0,1000,False
+Southeast Asia,ssp126_2050,climate_priority_selected_area_km2,830.0450862071843,200.39522360759042,1157.0271402479366,1000,False
+Southeast Asia,ssp126_2050,climate_priority_captured_co_suitability_fraction,0.26369340444641276,0.10630231107353724,0.4277669156704031,1000,False
+Southeast Asia,ssp126_2050,climate_priority_mean_future_mpei_kg_m3,2.8148388557714017e-08,1.677108130141329e-08,4.213512745275299e-08,1000,False
+Southeast Asia,ssp126_2050,climate_priority_mpei_supported_selected_area_fraction,1.0,1.0,1.0,1000,False
+Southeast Asia,ssp126_2050,climate_priority_mpei_supported_captured_co_suitability_fraction,1.0,1.0,1.0,1000,False
+Southeast Asia,ssp126_2050,future_mpei_priority_selected_area_km2,830.0450862071842,200.39522360759045,1157.0271402479368,1000,False
+Southeast Asia,ssp126_2050,future_mpei_priority_captured_co_suitability_fraction,0.26369340444641276,0.10630231107353723,0.4277669156704031,1000,False
+Southeast Asia,ssp126_2050,future_mpei_priority_mean_future_mpei_kg_m3,3.89743671214457e-08,1.803424097171137e-08,6.440005752055201e-08,1000,False
+Southeast Asia,ssp126_2050,future_mpei_priority_mpei_supported_selected_area_fraction,1.0,1.0,1.0,1000,False
+Southeast Asia,ssp126_2050,future_mpei_priority_mpei_supported_captured_co_suitability_fraction,1.0,1.0,1.0,1000,False
+Southeast Asia,ssp126_2050,future_mpei_vs_climate_co_suitability_retained_fraction,1.0,0.9999999999999997,1.0000000000000004,1000,False
+Southeast Asia,ssp126_2050,future_mpei_vs_climate_mean_mpei_change_pct,38.46038483352129,1.6009332237098894,101.06301712913252,1000,False
+Southeast Asia,ssp126_2050,future_mpei_vs_existing_mean_mpei_change_pct,11.049748038322265,-39.883827889176395,75.79564082367847,1000,False
+Southeast Asia,ssp126_2050,future_mpei_vs_climate_area_changed_fraction,0.5086629588333276,0.030874027843245954,0.8748041091642944,1000,False
+Southeast Asia,ssp126_2050,maximum_area_budget_closure_error_km2,1.1368683772161603e-13,0.0,2.2737367544323206e-13,1000,False
+Southeast Asia,ssp245_2050,candidate_reef_area_km2,2953.2149067518167,540.6778475554272,4628.663192823139,1000,False
+Southeast Asia,ssp245_2050,mpa_budget_km2,331.4303197303947,64.671193589592,524.229071363377,1000,False
+Southeast Asia,ssp245_2050,total_area_weighted_suitability_support,1561.3379976554804,411.40634664564266,3248.0071104374324,1000,False
+Southeast Asia,ssp245_2050,existing_mpa_selected_area_km2,331.4303197303947,64.671193589592,524.229071363377,1000,False
+Southeast Asia,ssp245_2050,existing_mpa_captured_co_suitability_fraction,0.09851560763435063,0.0411824331523458,0.26580527389521985,1000,False
+Southeast Asia,ssp245_2050,existing_mpa_mean_future_mpei_kg_m3,3.734117267202747e-08,2.8094177563280596e-08,4.6571417331835796e-08,1000,False
+Southeast Asia,ssp245_2050,existing_mpa_mpei_supported_selected_area_fraction,1.0,1.0,1.0,1000,False
+Southeast Asia,ssp245_2050,existing_mpa_mpei_supported_captured_co_suitability_fraction,1.0,1.0,1.0,1000,False
+Southeast Asia,ssp245_2050,climate_priority_selected_area_km2,331.4303197303946,64.671193589592,524.2290713633771,1000,False
+Southeast Asia,ssp245_2050,climate_priority_captured_co_suitability_fraction,0.15780353143146678,0.05841253012048452,0.3526998684153813,1000,False
+Southeast Asia,ssp245_2050,climate_priority_mean_future_mpei_kg_m3,2.947339961609984e-08,1.6041593431753388e-08,4.373039563768556e-08,1000,False
+Southeast Asia,ssp245_2050,climate_priority_mpei_supported_selected_area_fraction,1.0,1.0,1.0,1000,False
+Southeast Asia,ssp245_2050,climate_priority_mpei_supported_captured_co_suitability_fraction,1.0,1.0,1.0,1000,False
+Southeast Asia,ssp245_2050,future_mpei_priority_selected_area_km2,331.4303197303947,64.671193589592,524.2290713633771,1000,False
+Southeast Asia,ssp245_2050,future_mpei_priority_captured_co_suitability_fraction,0.1578035314314668,0.0584125301204845,0.3526998684153813,1000,False
+Southeast Asia,ssp245_2050,future_mpei_priority_mean_future_mpei_kg_m3,4.497038724670683e-08,1.8899672438744156e-08,7.152194821393685e-08,1000,False
+Southeast Asia,ssp245_2050,future_mpei_priority_mpei_supported_selected_area_fraction,1.0,1.0,1.0,1000,False
+Southeast Asia,ssp245_2050,future_mpei_priority_mpei_supported_captured_co_suitability_fraction,1.0,1.0,1.0,1000,False
+Southeast Asia,ssp245_2050,future_mpei_vs_climate_co_suitability_retained_fraction,1.0000000000000002,0.9999999999999997,1.0000000000000004,1000,False
+Southeast Asia,ssp245_2050,future_mpei_vs_climate_mean_mpei_change_pct,52.57957287744222,3.252874444126459,140.32283026061043,1000,False
+Southeast Asia,ssp245_2050,future_mpei_vs_existing_mean_mpei_change_pct,20.431106011821793,-47.884651135109095,94.84370999980553,1000,False
+Southeast Asia,ssp245_2050,future_mpei_vs_climate_area_changed_fraction,0.6446505951700765,0.08458538537714841,0.929068026930733,1000,False
+Southeast Asia,ssp245_2050,maximum_area_budget_closure_error_km2,5.684341886080802e-14,0.0,1.1368683772161603e-13,1000,False
+Southeast Asia,ssp585_2050,candidate_reef_area_km2,1519.2035896896673,257.32627137553794,2325.872283643826,1000,False
+Southeast Asia,ssp585_2050,mpa_budget_km2,178.24745984254844,16.578731941416404,299.47040609968315,1000,False
+Southeast Asia,ssp585_2050,total_area_weighted_suitability_support,656.3091989556107,143.8953752108992,1333.9538607332393,1000,False
+Southeast Asia,ssp585_2050,existing_mpa_selected_area_km2,178.24745984254844,16.578731941416404,299.47040609968315,1000,False
+Southeast Asia,ssp585_2050,existing_mpa_captured_co_suitability_fraction,0.12225469531547886,0.027503913131649738,0.3663008002802959,1000,False
+Southeast Asia,ssp585_2050,existing_mpa_mean_future_mpei_kg_m3,4.346453149899141e-08,3.3969317224393265e-08,5.300054453471912e-08,1000,False
+Southeast Asia,ssp585_2050,existing_mpa_mpei_supported_selected_area_fraction,1.0,1.0,1.0,1000,False
+Southeast Asia,ssp585_2050,existing_mpa_mpei_supported_captured_co_suitability_fraction,1.0,1.0,1.0,1000,False
+Southeast Asia,ssp585_2050,climate_priority_selected_area_km2,178.2474598425484,16.578731941416407,299.4704060996831,1000,False
+Southeast Asia,ssp585_2050,climate_priority_captured_co_suitability_fraction,0.19218130732285932,0.038542289211575355,0.4710955981744777,1000,False
+Southeast Asia,ssp585_2050,climate_priority_mean_future_mpei_kg_m3,3.2368881055265275e-08,1.8427028327188382e-08,4.824987048311408e-08,1000,False
+Southeast Asia,ssp585_2050,climate_priority_mpei_supported_selected_area_fraction,1.0,1.0,1.0,1000,False
+Southeast Asia,ssp585_2050,climate_priority_mpei_supported_captured_co_suitability_fraction,1.0,1.0,1.0,1000,False
+Southeast Asia,ssp585_2050,future_mpei_priority_selected_area_km2,178.2474598425484,16.578731941416404,299.47040609968315,1000,False
+Southeast Asia,ssp585_2050,future_mpei_priority_captured_co_suitability_fraction,0.1921813073228593,0.03854228921157536,0.4710955981744777,1000,False
+Southeast Asia,ssp585_2050,future_mpei_priority_mean_future_mpei_kg_m3,4.384878871251244e-08,2.349696951463625e-08,5.566870667244736e-08,1000,False
+Southeast Asia,ssp585_2050,future_mpei_priority_mpei_supported_selected_area_fraction,1.0,1.0,1.0,1000,False
+Southeast Asia,ssp585_2050,future_mpei_priority_mpei_supported_captured_co_suitability_fraction,1.0,1.0,1.0,1000,False
+Southeast Asia,ssp585_2050,future_mpei_vs_climate_co_suitability_retained_fraction,0.9999999999999999,0.9999999999999997,1.0000000000000004,1000,False
+Southeast Asia,ssp585_2050,future_mpei_vs_climate_mean_mpei_change_pct,35.46587735809232,1.7479626745111216,125.32854498620074,1000,False
+Southeast Asia,ssp585_2050,future_mpei_vs_existing_mean_mpei_change_pct,0.884070759004836,-40.36637251888485,29.736527435344332,1000,False
+Southeast Asia,ssp585_2050,future_mpei_vs_climate_area_changed_fraction,0.5331821576295221,0.06844821368663116,0.9303475174406322,1000,False
+Southeast Asia,ssp585_2050,maximum_area_budget_closure_error_km2,2.842170943040401e-14,0.0,5.684341886080802e-14,1000,False

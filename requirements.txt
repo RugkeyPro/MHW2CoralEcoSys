@@ -1,3 +1,7 @@
-# Optional only for rebuilding map samples from the bundled GeoTIFF files.
-numpy>=1.26,<3
-rasterio>=1.3,<2
+# Validated scientific demo environment; no web runtime is required.
+numpy==2.3.5
+pandas==2.3.3
+matplotlib==3.10.7
+
+# Optional, only for re-curating inputs from the original project Parquet files:
+# pyarrow>=14,<26

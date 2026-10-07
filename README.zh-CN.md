@@ -1,38 +1,32 @@
-# 海洋热浪与珊瑚礁微塑料生态风险 Demo
+# 海洋热浪与珊瑚礁微塑料科研代码示例
 
-这是基于课题实际主线数据子集制作的完整可运行演示，包括研究总览、未来风险、热浪与暴露、保护配置、数据与溯源、方法与复现六个页面。界面可切换中文和英文，支持区域、SSP情景、气候模型成员及历史类群选择。
+本仓库按Lake_Microplastics_Analysis_System的科研交付形式整理：研究代码、实际数据子集、命令行demo、计算输出、期望结果、安装与复现说明。早期网页版本保存在archive/web_demo_20261006，不再作为主交付。
 
-[在线演示](https://rugkeypro.github.io/MHW2CoralEcoSys/) · [目标仓库PR #1](https://github.com/NKUHuLab/MHW2CoralEcoSys/pull/1) · [独立演示ZIP](https://github.com/RugkeyPro/MHW2CoralEcoSys/releases/download/v1.0.0-demo/MHW2CoralEcoSys-demo.zip)。在线预览部署在提交贡献的fork仓库，目标main仍需维护者合并PR。
+## 安装和运行
 
-## 直接启动
-
-```powershell
-python serve_demo.py
-```
-
-浏览器打开 http://127.0.0.1:8080 。仓库已包含编译后的demo，观看效果只需要Python，不需要安装Node、数据库、R或地图API服务。单独下载演示ZIP后也可解压运行。
-
-## 实际数据
-
-- 6张CSV结果表和3份GeoTIFF，均为原项目派生结果的逐字节副本，附SHA-256。
-- 3个SSP、4个区域、3个CMIP6成员；未来区域表12条，成员表36条。
-- 历史热浪分组4区域×5响应×3分组，共60条。
-- 保护配置使用9月6日修复后的Table S5，共12条。
-- 每份地图保留76,635个有效原始0.083°格点，聚合为2,479个一度显示格点；区域统计仍来自原结果表。
-
-复算入口：
+在Python 3.11或3.12环境中：
 
 ```powershell
-python analysis/run_demo.py
-python -m unittest discover -s tests
+python -m venv .venv
+.venv\Scripts\Activate.ps1
+pip install -r requirements.txt
+python run_demo.py
 ```
 
-该流程只使用Python标准库，检查9个源文件哈希及252项数值比较，输出outputs中的结果及验证报告。它复算选定结果表，不重新训练MaxEnt或运行完整海洋模型。
+该命令从29,746个真实珊瑚礁网格输入开始，重新执行等面积优先区选择、MPEI变化分析和1,000次联合模型/空间块bootstrap，再重算Table S5并绘图。不是只读取现成表格重新展示。
 
-## 使用建议
+原分析的七个数值函数、三个SSP、四个区域、三个气候成员、5°空间块和20260804随机种子保持一致。数据保留原始行序及逐列数值；校验参考表只在计算完成后用于对照。
 
-先看“研究总览”，切换三个情景及区域；“未来风险”可看独立气候成员；“热浪与暴露”看历史类群和分组；“保护配置”比较优先区域重分配及MPEI变化；“数据与溯源”下载实际CSV/GeoTIFF并核对来源。
+## 结果
 
-历史页面的54-tracer固定MPEI和未来页面的36-tracer时期匹配MPEI分开显示。三模型最小–最大范围不是95%区间。全球保护配置MPEI区间包含零。MPEI是模型外部暴露，不是内剂量、珊瑚死亡率或保护实施后的净化效果。
+输出默认保存在outputs/conservation_demo，包括新点估计、12,000条bootstrap记录、区间汇总、Table S5、网格优先级选择及PNG/SVG/PDF图件。run_checks.json明确记录哈希、数值比较、有效重复数、运行环境与耗时。完整GBR分析的有效重复数为991；不能将缺失结果补成零。
 
-完整安装、部署与数据定义见[英文README](README.md)、[方法和验证](docs/methods_and_validation.md)以及[数据字典](docs/data_dictionary.md)。完整项目迁移中仍有三个缺包记录，本demo不能据此宣告整个研究已完成端到端复现。
+快速流程检查可用 `python run_demo.py --replicates 25 --no-plots`，但它不重现完整1,000次bootstrap的最终区间。自有数据可以通过 `--input` 指定，需满足数据字典，不能据此继续宣称与原研究冻结结果一致。
+
+## 边界
+
+此demo完整复现“从已归档网格派生输入到保护配置结果”的模块。原海洋模式、环境栅格处理、MaxEnt训练和完整论文仍有其他输入需求；它们的较大分析脚本保存在research_workflow，并注明外部依赖。
+
+主线仍使用9月6日修复版HSI/MESS与2045–2055 36-tracer MPEI。各SSP使用同一未来MPEI场。MPEI是模型外部暴露，优先配置结果不是净化效果、内剂量或保护实施后的实测成效。全球MPEI变化区间包含零。
+
+[完整说明](README.md) · [模块说明](analysis/modules/conservation_demo/README.md) · [数据字典](data/README.md) · [方法和验证](docs/methods_and_validation.md)。代码继续通过[目标仓库PR #1](https://github.com/NKUHuLab/MHW2CoralEcoSys/pull/1)提交，main合并状态以GitHub为准。

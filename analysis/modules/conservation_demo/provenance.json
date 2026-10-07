@@ -1,0 +1,136 @@
+{
+  "curated_date": "2026-10-07",
+  "accepted_lineage": "2026-09-06 repaired conservation",
+  "input_rows": 29746,
+  "input_columns": [
+    "cell_id",
+    "row",
+    "col",
+    "longitude",
+    "latitude",
+    "reef_area_km2",
+    "mpa_fraction_with_point_buffers",
+    "P_valid_ssp126_2050",
+    "P_valid_ssp245_2050",
+    "P_valid_ssp585_2050",
+    "P_ssp126_2050",
+    "P_ssp245_2050",
+    "P_ssp585_2050",
+    "mpei_total",
+    "mpei_supported",
+    "mpei_e_star_global_reef_minmax",
+    "ssp126_2050__gfdl_esm4_r1i1p1f1_gr",
+    "ssp126_2050__cnrm_esm2_1_r1i1p1f2_gn",
+    "ssp126_2050__ipsl_cm6a_lr_r1i1p1f1_gn",
+    "ssp245_2050__gfdl_esm4_r1i1p1f1_gr",
+    "ssp245_2050__cnrm_esm2_1_r1i1p1f2_gn",
+    "ssp245_2050__ipsl_cm6a_lr_r1i1p1f1_gn",
+    "ssp585_2050__gfdl_esm4_r1i1p1f1_gr",
+    "ssp585_2050__cnrm_esm2_1_r1i1p1f2_gn",
+    "ssp585_2050__ipsl_cm6a_lr_r1i1p1f1_gn"
+  ],
+  "coordinate_system": "EPSG:4326",
+  "source_records": [
+    {
+      "name": "future_mpei_mean_2045_2055_reef_cells_20260903.parquet",
+      "sha256": "3256bd21ae61e38ab108a19c771bfe2910637c16ff91f53bc8fcd90889460940",
+      "bytes": 5425155
+    },
+    {
+      "name": "repaired_member_support.parquet",
+      "sha256": "6588531d1a30be3c1a1bcaacfa7a86b4c2aa32dc6c6aa3874006ff6e37316dbe",
+      "bytes": 393471
+    },
+    {
+      "name": "process_future_mpei_conservation_20260903.py",
+      "sha256": "78b4caad21dbaa72037927941d13ff464616ff578df7435ce54769b16040c513",
+      "bytes": 21325
+    }
+  ],
+  "row_selection": "All 29,746 archived positive-area reef cells; no result-dependent filtering",
+  "column_selection": "Only numeric/boolean runtime fields; WKB geometry and unused polymer/size component fields omitted",
+  "float_conversion": "17 significant digits, pandas round_trip; every source column tested for exact equality after read-back",
+  "normalization": "Retain the original global-reef min-max MPEI score; do not renormalize per reporting region",
+  "source_hashes_before_and_after_unchanged": true,
+  "function_bodies_copied_unchanged": [
+    "exact_budget_selection",
+    "ratio",
+    "calculate_metrics",
+    "region_mask",
+    "point_estimates",
+    "bootstrap",
+    "summarize"
+  ],
+  "files": [
+    {
+      "file": "analysis/modules/conservation_demo/data/reef_cells.csv.gz",
+      "role": "runtime_input",
+      "sha256": "c0f5311f52505e984cf0a534cb72ebcba519be6b3674fadc71c9972e2bb56fac",
+      "bytes": 1243008,
+      "source": "Accepted derived reef cells and member masks; numeric columns only, original row order and exact float round-trip"
+    },
+    {
+      "file": "analysis/modules/conservation_demo/code/conservation_core.py",
+      "role": "unchanged_function_bodies",
+      "sha256": "24437845b9c32af4d226b3d603e2e2d63146c13a898dd5cd190dd49aa7d903f2",
+      "bytes": 12295,
+      "source": "process_future_mpei_conservation_20260903.py: seven independent calculation functions and original constants"
+    },
+    {
+      "file": "analysis/modules/conservation_demo/reference/point_estimates.csv",
+      "role": "frozen_reference_not_runtime_input",
+      "sha256": "2569507a87df1cfd72344ffda3d2d21e4d698ade559657df65dc49391df063e9",
+      "bytes": 5774,
+      "source": "future_conservation_period_matched_mpei_20260903/tables/future_mpei_conservation_point_estimates_20260903.csv"
+    },
+    {
+      "file": "analysis/modules/conservation_demo/reference/bootstrap_draws.csv.gz",
+      "role": "frozen_reference_not_runtime_input",
+      "sha256": "0b7380603e87a9eed91f083ad4561b09faf460c4c99940cad02e1b2a9f2d38a3",
+      "bytes": 1618009,
+      "source": "future_conservation_period_matched_mpei_20260903/tables/future_mpei_conservation_bootstrap_20260903.csv"
+    },
+    {
+      "file": "analysis/modules/conservation_demo/reference/summary.csv",
+      "role": "frozen_reference_not_runtime_input",
+      "sha256": "3fd36e031611e34027e088e75f7f18e5adbfe83e4495371b6e0d4a4d84584301",
+      "bytes": 34909,
+      "source": "future_conservation_period_matched_mpei_20260903/tables/future_mpei_conservation_summary_20260903.csv"
+    },
+    {
+      "file": "analysis/modules/conservation_demo/reference/Table_S5.csv",
+      "role": "frozen_reference_not_runtime_input",
+      "sha256": "59883132eff829182db456d82fde8a286251dc0a1e08c662edc29402e4518094",
+      "bytes": 1714,
+      "source": "future_conservation_period_matched_mpei_20260903/tables/Supplementary_Table_S5_20260906.csv"
+    },
+    {
+      "file": "research_workflow/process_future_mpei_conservation_20260903.py",
+      "role": "original_full_workflow_requires_external_inputs",
+      "sha256": "78b4caad21dbaa72037927941d13ff464616ff578df7435ce54769b16040c513",
+      "bytes": 21325,
+      "source": "process_future_mpei_conservation_20260903.py"
+    },
+    {
+      "file": "research_workflow/run_repaired_analysis_20260906.py",
+      "role": "original_full_workflow_requires_external_inputs",
+      "sha256": "d859dd449e6e238ae2b5fefebaae24eaf54163f26a38411f4ca296599faa7d9c",
+      "bytes": 10735,
+      "source": "run_repaired_analysis_20260906.py"
+    },
+    {
+      "file": "research_workflow/analyze_future_risk_period_matched_mpei_20260902.py",
+      "role": "original_full_workflow_requires_external_inputs",
+      "sha256": "7ea82cc4398c1f97bc0ab927e6a62df4fd38f3f73ab7170f271dac79bd679092",
+      "bytes": 37089,
+      "source": "analyze_future_risk_period_matched_mpei_20260902.py"
+    },
+    {
+      "file": "research_workflow/prepare_figureS6_repaired_20260821.py",
+      "role": "original_full_workflow_requires_external_inputs",
+      "sha256": "fd41107b0b574ea8002f6e7a746be55dfd5744ffa18ef9b0585dca61c90cef44",
+      "bytes": 21604,
+      "source": "prepare_figureS6_repaired_20260821.py"
+    }
+  ]
+}

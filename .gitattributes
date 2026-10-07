@@ -10,3 +10,5 @@
 *.yml text eol=lf
 *.yaml text eol=lf
 *.md text eol=lf
+research_workflow/*.py -text whitespace=cr-at-eol,-blank-at-eof
+examples/expected_outputs/*.svg -whitespace

@@ -1,5 +1,12 @@
 node_modules/
 dist/
+archive/**/outputs/
+archive/**/node_modules/
+archive/**/dist/
+archive/**/test-results/
+archive/**/playwright-report/
+archive/**/deliverables/
+demo_outputs/
 outputs/
 deliverables/
 test-results/
@@ -10,4 +17,4 @@ __pycache__/
 *.tsbuildinfo
 .env
 .env.*
-!data/source/*.csv
+!analysis/modules/conservation_demo/reference/*.csv

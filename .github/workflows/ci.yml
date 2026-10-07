@@ -1,31 +1,22 @@
-name: Real-data demo checks
+name: Scientific demo reproduction
 on: [push, pull_request, workflow_dispatch]
 permissions:
   contents: read
 jobs:
-  verify:
+  reproduce:
     runs-on: ubuntu-latest
+    timeout-minutes: 20
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - uses: actions/setup-node@v4
-        with:
-          node-version: '22'
-          cache: npm
-      - run: python analysis/run_demo.py
+          cache: pip
+      - run: pip install -r requirements.txt
       - run: python -m unittest discover -s tests
-      - run: npm ci
-      - run: npm test
-      - run: npm run build
-      - run: npx playwright install --with-deps chromium
-      - run: npm run test:e2e
+      - run: python run_demo.py
       - uses: actions/upload-artifact@v4
         if: always()
         with:
-          name: real-data-demo-and-validation
-          path: |
-            dist/
-            outputs/
-            test-results/
+          name: scientific-demo-calculated-outputs
+          path: outputs/conservation_demo/

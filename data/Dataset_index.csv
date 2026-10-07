@@ -1,0 +1,7 @@
+path,role,records,selection,reference_use
+analysis/modules/conservation_demo/data/reef_cells.csv.gz,actual_derived_runtime_input,29746,all archived positive-area cells and 25 runtime fields,no
+analysis/modules/conservation_demo/reference/point_estimates.csv,frozen_accepted_point_reference,12,all four regions and three scenarios,post-computation comparison only
+analysis/modules/conservation_demo/reference/bootstrap_draws.csv.gz,frozen_accepted_bootstrap_reference,12000,all original replicates and outcomes,post-computation comparison only
+analysis/modules/conservation_demo/reference/summary.csv,frozen_accepted_summary_reference,,all original metric summaries,post-computation comparison only
+analysis/modules/conservation_demo/reference/Table_S5.csv,frozen_accepted_compact_table,12,accepted September 6 conservation table,post-computation comparison only
+research_workflow/,original_parent_code,,unchanged larger workflow scripts,source provenance and full-input instructions

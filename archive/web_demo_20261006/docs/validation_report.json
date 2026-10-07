@@ -1,0 +1,20 @@
+{
+  "validation_date": "2026-10-06",
+  "scope": "Selected-result demo, not full-model scientific reproduction",
+  "production_build": "passed",
+  "source_files_sha256_verified": 9,
+  "numeric_reproduction_comparisons": 252,
+  "python_tests": {"passed": 5, "failed": 0},
+  "frontend_tests": {"passed": 6, "failed": 0},
+  "browser_tests": {"passed": 2, "failed": 0, "browser": "Microsoft Edge"},
+  "responsive_viewports": [{"width": 390, "height": 844}, {"width": 1512, "height": 1100}],
+  "visual_review": ["desktop overview", "English overview", "mobile overview", "conservation"],
+  "npm_install_audit": {"vulnerabilities": 0},
+  "standalone_browser": "passed",
+  "standalone_http_source_hashes_matched": 9,
+  "external_runtime_requests": 0,
+  "hosted_demo": {"url": "https://rugkeypro.github.io/MHW2CoralEcoSys/", "browser_check": "passed", "download_hashes_matched": 9, "external_runtime_requests": 0},
+  "github_ci": {"status": "passed", "validated_commit": "39e94f5731887a17ced902edf4604bf961b18cc4", "url": "https://github.com/RugkeyPro/MHW2CoralEcoSys/actions/runs/37489481924"},
+  "docker_runtime": "not tested",
+  "full_ocean_model_and_maxent_training": "not run"
+}
