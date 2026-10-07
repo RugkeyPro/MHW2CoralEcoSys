@@ -19,5 +19,6 @@
   "measured_local_full_run_seconds": 29.868,
   "source_input_roundtrip": "Exact equality for all retained columns and original row order",
   "original_sources_modified": false,
+  "linux_scientific_ci": {"status": "passed", "validated_commit": "36842c564cbafd8d06b3f865d647b1fe326a1951", "url": "https://github.com/RugkeyPro/MHW2CoralEcoSys/actions/runs/37599587090"},
   "full_ocean_model_or_MaxEnt_refit": "Not performed; this demo begins at derived reef-cell inputs"
 }

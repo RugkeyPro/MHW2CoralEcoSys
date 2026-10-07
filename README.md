@@ -4,6 +4,8 @@ Research code, a real reef-cell demonstration dataset and a runnable scientific 
 
 The delivery follows the scientific-code format of [Lake_Microplastics_Analysis_System](https://github.com/NKUHuLab/Lake_Microplastics_Analysis_System): analysis scripts, selected actual inputs, a command-line demo, calculated outputs, expected results and installation/reproduction instructions.
 
+[Standalone scientific-demo package](https://github.com/RugkeyPro/MHW2CoralEcoSys/releases/download/v2.0.0-scientific-demo/MHW2CoralEcoSys-scientific-demo.zip) · [Target-repository contribution](https://github.com/NKUHuLab/MHW2CoralEcoSys/pull/1) · [Successful Linux scientific reproduction](https://github.com/RugkeyPro/MHW2CoralEcoSys/actions/runs/37599587090).
+
 ## 1. System requirements
 
 - Python **3.11 or 3.12**; the validated local environment uses Python 3.12.
