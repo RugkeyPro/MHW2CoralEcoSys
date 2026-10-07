@@ -6,6 +6,7 @@
   "core_scientific_function_bodies_unchanged": 7,
   "unit_and_regression_tests": 8,
   "notebook_execution": {"status": "passed", "entrypoint": "MHW2CoralEcoSys_demo.ipynb", "executed_code_cells": 8, "error_outputs": 0, "new_bootstrap_records": 12000, "report": "examples/expected_outputs/notebook_run_checks.json"},
+  "linux_notebook_ci": {"status": "passed", "validated_commit": "7c0f6b681a350ac984042e54f0b2afd5fc0f85be", "url": "https://github.com/RugkeyPro/MHW2CoralEcoSys/actions/runs/37610740312"},
   "bootstrap_replicates": 1000,
   "new_bootstrap_records": 12000,
   "matched_point_estimate_values": 276,
