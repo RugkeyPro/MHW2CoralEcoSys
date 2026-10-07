@@ -1,12 +1,12 @@
-# Equal-area reef conservation: runnable scientific example
+# Equal-area reef conservation: notebook-backed scientific module
 
-Run from the repository root after `pip install -r requirements.txt`:
+Open the repository-root [MHW2CoralEcoSys_demo.ipynb](../../../MHW2CoralEcoSys_demo.ipynb) after `pip install -r requirements.txt`:
 
 ```bash
-python analysis/modules/conservation_demo/code/run_all.py
+jupyter lab MHW2CoralEcoSys_demo.ipynb
 ```
 
-`python run_demo.py` is the same entry. No webpage or JavaScript runtime is required.
+Use **Run All Cells**. Each notebook stage directly calls the relevant calculation functions, displays newly computed results and saves its report. `code/run_all.py` provides shared validation/comparison/plotting utilities; its optional module CLI is retained for development, while the previous root script is archived. No webpage or JavaScript runtime is required.
 
 ## Calculation inputs
 
@@ -34,7 +34,7 @@ Frozen keys, missingness and all compatible numeric fields are compared. Concent
 
 ## Outputs and configuration
 
-Default output directory: repository `outputs/conservation_demo/`. The full run creates tables, selections, plots and an explicit validation report. Source files are read-only. `--replicates`, `--seed`, `--input`, `--output` and `--no-plots` are documented CLI controls.
+Default notebook output directory: repository `outputs/notebook_demo/`. The full run creates tables, selections, plots and an explicit validation report. Source files are read-only. Editable notebook parameters are `N_BOOTSTRAP`, `RANDOM_SEED`, `INPUT_FILE` and `OUTPUT`.
 
 The first N draw records can be compared to the original sequence for an unchanged input and seed with N≤1,000. Only the full unchanged design compares the final uncertainty summary and Table S5 to the accepted references. A different input or seed is clearly labelled a customized calculation; it is not silently declared a reproduction of the frozen study.
 

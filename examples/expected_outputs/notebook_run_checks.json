@@ -1,0 +1,117 @@
+{
+  "entrypoint": "MHW2CoralEcoSys_demo.ipynb",
+  "input_rows": 29746,
+  "point_rows": 12,
+  "draw_rows": 12000,
+  "requested_replicates": 1000,
+  "seed": 20260804,
+  "original_packaged_input": true,
+  "full_frozen_design": true,
+  "source_hashes_checked": 10,
+  "effective_replicates_by_region": {
+    "Global": 1000,
+    "Caribbean": 1000,
+    "GBR": 991,
+    "Southeast Asia": 1000
+  },
+  "comparisons": {
+    "point_estimates": {
+      "status": "passed",
+      "records": 12,
+      "numeric_fields": 23,
+      "finite_values_compared": 276,
+      "max_absolute_error_by_field": {
+        "candidate_reef_area_km2": 0.0,
+        "mpa_budget_km2": 0.0,
+        "total_area_weighted_suitability_support": 0.0,
+        "existing_mpa_selected_area_km2": 0.0,
+        "existing_mpa_captured_co_suitability_fraction": 0.0,
+        "existing_mpa_mean_future_mpei_kg_m3": 0.0,
+        "existing_mpa_mpei_supported_selected_area_fraction": 0.0,
+        "existing_mpa_mpei_supported_captured_co_suitability_fraction": 0.0,
+        "climate_priority_selected_area_km2": 0.0,
+        "climate_priority_captured_co_suitability_fraction": 0.0,
+        "climate_priority_mean_future_mpei_kg_m3": 0.0,
+        "climate_priority_mpei_supported_selected_area_fraction": 0.0,
+        "climate_priority_mpei_supported_captured_co_suitability_fraction": 0.0,
+        "future_mpei_priority_selected_area_km2": 0.0,
+        "future_mpei_priority_captured_co_suitability_fraction": 0.0,
+        "future_mpei_priority_mean_future_mpei_kg_m3": 0.0,
+        "future_mpei_priority_mpei_supported_selected_area_fraction": 0.0,
+        "future_mpei_priority_mpei_supported_captured_co_suitability_fraction": 0.0,
+        "future_mpei_vs_climate_co_suitability_retained_fraction": 0.0,
+        "future_mpei_vs_climate_mean_mpei_change_pct": 0.0,
+        "future_mpei_vs_existing_mean_mpei_change_pct": 0.0,
+        "future_mpei_vs_climate_area_changed_fraction": 0.0,
+        "maximum_area_budget_closure_error_km2": 0.0
+      }
+    },
+    "bootstrap_draws": {
+      "status": "passed",
+      "records": 12000,
+      "numeric_fields": 23,
+      "finite_values_compared": 275631,
+      "max_absolute_error_by_field": {
+        "candidate_reef_area_km2": 0.0,
+        "mpa_budget_km2": 0.0,
+        "total_area_weighted_suitability_support": 0.0,
+        "existing_mpa_selected_area_km2": 0.0,
+        "existing_mpa_captured_co_suitability_fraction": 0.0,
+        "existing_mpa_mean_future_mpei_kg_m3": 0.0,
+        "existing_mpa_mpei_supported_selected_area_fraction": 0.0,
+        "existing_mpa_mpei_supported_captured_co_suitability_fraction": 0.0,
+        "climate_priority_selected_area_km2": 0.0,
+        "climate_priority_captured_co_suitability_fraction": 0.0,
+        "climate_priority_mean_future_mpei_kg_m3": 0.0,
+        "climate_priority_mpei_supported_selected_area_fraction": 0.0,
+        "climate_priority_mpei_supported_captured_co_suitability_fraction": 0.0,
+        "future_mpei_priority_selected_area_km2": 0.0,
+        "future_mpei_priority_captured_co_suitability_fraction": 0.0,
+        "future_mpei_priority_mean_future_mpei_kg_m3": 0.0,
+        "future_mpei_priority_mpei_supported_selected_area_fraction": 0.0,
+        "future_mpei_priority_mpei_supported_captured_co_suitability_fraction": 0.0,
+        "future_mpei_vs_climate_co_suitability_retained_fraction": 0.0,
+        "future_mpei_vs_climate_mean_mpei_change_pct": 0.0,
+        "future_mpei_vs_existing_mean_mpei_change_pct": 0.0,
+        "future_mpei_vs_climate_area_changed_fraction": 0.0,
+        "maximum_area_budget_closure_error_km2": 0.0
+      }
+    },
+    "summary": {
+      "status": "passed",
+      "records": 276,
+      "numeric_fields": 5,
+      "finite_values_compared": 1380,
+      "max_absolute_error_by_field": {
+        "estimate": 0.0,
+        "lower_95": 0.0,
+        "upper_95": 0.0,
+        "n_bootstrap": 0.0,
+        "outside_percentile_interval": 0.0
+      }
+    },
+    "Table_S5": {
+      "status": "passed",
+      "records": 12,
+      "numeric_fields": 6,
+      "finite_values_compared": 72,
+      "max_absolute_error_by_field": {
+        "future_mpei_vs_climate_area_changed_pct": 9.325873406851315e-15,
+        "area_changed_lower_95": 7.993605777301127e-15,
+        "area_changed_upper_95": 7.105427357601002e-15,
+        "future_mpei_vs_climate_mean_mpei_change_pct": 5.551115123125783e-17,
+        "mpei_change_lower_95": 6.938893903907228e-17,
+        "mpei_change_upper_95": 3.552713678800501e-15
+      }
+    }
+  },
+  "reference_scope": "Full accepted calculation",
+  "status": "passed",
+  "raw_inputs_modified": false,
+  "elapsed_seconds": 27.471,
+  "environment": {
+    "python": "3.12.10",
+    "numpy": "2.3.5",
+    "pandas": "2.3.3"
+  }
+}

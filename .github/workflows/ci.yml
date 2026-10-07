@@ -1,4 +1,4 @@
-name: Scientific demo reproduction
+name: Notebook scientific reproduction
 on: [push, pull_request, workflow_dispatch]
 permissions:
   contents: read
@@ -14,9 +14,11 @@ jobs:
           cache: pip
       - run: pip install -r requirements.txt
       - run: python -m unittest discover -s tests
-      - run: python run_demo.py
+      - run: python scripts/execute_notebook.py
       - uses: actions/upload-artifact@v4
         if: always()
         with:
-          name: scientific-demo-calculated-outputs
-          path: outputs/conservation_demo/
+          name: executed-scientific-notebook-and-outputs
+          path: |
+            outputs/notebook_demo/
+            outputs/notebook_execution/

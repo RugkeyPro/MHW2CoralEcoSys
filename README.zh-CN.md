@@ -1,6 +1,8 @@
-# 海洋热浪与珊瑚礁微塑料科研代码示例
+# 珊瑚礁微塑料科研Notebook
 
-本仓库按Lake_Microplastics_Analysis_System的科研交付形式整理：研究代码、实际数据子集、命令行demo、计算输出、期望结果、安装与复现说明。早期网页版本保存在archive/web_demo_20261006，不再作为主交付。
+主要入口是 [MHW2CoralEcoSys_demo.ipynb](MHW2CoralEcoSys_demo.ipynb)。打开Notebook即可逐步查看实际输入、计算过程、表格、日志和图件；上传的文件保留完整执行输出，GitHub上也可直接预览。
+
+仓库继续按Lake的科研代码交付标准保留实际数据、原计算函数、期望结果与复现说明。网页和早期根目录脚本入口分别保存在archive/web_demo_20261006及archive/cli_demo_20261007。
 
 ## 安装和运行
 
@@ -10,18 +12,20 @@
 python -m venv .venv
 .venv\Scripts\Activate.ps1
 pip install -r requirements.txt
-python run_demo.py
+jupyter lab MHW2CoralEcoSys_demo.ipynb
 ```
 
-该命令从29,746个真实珊瑚礁网格输入开始，重新执行等面积优先区选择、MPEI变化分析和1,000次联合模型/空间块bootstrap，再重算Table S5并绘图。不是只读取现成表格重新展示。
+选择该环境的Python内核，然后点击 **Run → Run All Cells**。Notebook从29,746个真实网格开始，分8个阶段完成环境参数、输入和哈希、优先区点估计、1,000次bootstrap、区间和Table S5、参考核对、绘图、保存报告。
 
 原分析的七个数值函数、三个SSP、四个区域、三个气候成员、5°空间块和20260804随机种子保持一致。数据保留原始行序及逐列数值；校验参考表只在计算完成后用于对照。
 
 ## 结果
 
-输出默认保存在outputs/conservation_demo，包括新点估计、12,000条bootstrap记录、区间汇总、Table S5、网格优先级选择及PNG/SVG/PDF图件。run_checks.json明确记录哈希、数值比较、有效重复数、运行环境与耗时。完整GBR分析的有效重复数为991；不能将缺失结果补成零。
+输出默认保存在outputs/notebook_demo，包括新点估计、12,000条bootstrap记录、区间汇总、Table S5、网格优先级选择及PNG/SVG/PDF图件。主要表格和图件也直接显示在Notebook内。run_checks.json明确记录哈希、数值比较、有效重复数、运行环境与耗时。完整GBR分析的有效重复数为991；缺失结果保留为缺失。
 
-快速流程检查可用 `python run_demo.py --replicates 25 --no-plots`，但它不重现完整1,000次bootstrap的最终区间。自有数据可以通过 `--input` 指定，需满足数据字典，不能据此继续宣称与原研究冻结结果一致。
+需要使用自己的数据或改变参数时，修改Notebook参数单元格中的INPUT_FILE、OUTPUT、N_BOOTSTRAP、RANDOM_SEED。缩短重复数或修改输入/种子会明确标记为非完整冻结设计，不继续宣称复现原最终区间。
+
+需要自动验证Notebook时，维护者可执行 `python scripts/execute_notebook.py`；该工具逐格执行同一个.ipynb，CI也使用这一入口。
 
 ## 边界
 

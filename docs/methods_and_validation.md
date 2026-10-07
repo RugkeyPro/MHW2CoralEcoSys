@@ -1,5 +1,9 @@
 # Methods and verification boundary
 
+## Notebook entry and execution
+
+`MHW2CoralEcoSys_demo.ipynb` is the primary demo. Its eight code cells separately read inputs, calculate estimates, bootstrap, summarize, compare, render and save. It does not launch the previous root script or read expected output images to stand in for fresh calculations. Outputs are saved in `outputs/notebook_demo/` and embedded in the executed Notebook. `scripts/execute_notebook.py` supplies a temporary kernelspec pointing to the currently validated Python interpreter, executes all cells without allowing errors, checks full-design results and package versions, and saves the executed artifact. GitHub CI executes this same notebook.
+
 ## Accepted model lineage
 
 The sample follows the September 6 repaired conservation analysis: August repaired HSI/MESS support and the mean 2045–2055 36-tracer MPEI field. The support masks belong to three CMIP6 members and SSP126/245/585. All scenarios share the same future plastic field. Four taxa are represented in the upstream OR10/MESS constraints; the demo does not retrain those SDMs.
